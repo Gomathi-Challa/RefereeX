@@ -1,0 +1,2731 @@
+{
+  "A Review of Clustering Techniques.pdf": {
+    "title": "A Review of Clustering Techniques and Developments",
+    "funders": [
+      "Australian Research Council",
+      "ARC"
+    ],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Department of Computer Science & IT, Guru Ghasidas Vishwavidyalaya, Bilaspur, India"
+      },
+      {
+        "name": "Mukesh Prasad",
+        "affiliation": "Centre for Artificial Intelligence, University of Technology Sydney, Sydney, Australia"
+      },
+      {
+        "name": "Akshansh Gupta",
+        "affiliation": "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India"
+      },
+      {
+        "name": "Neha Bharill",
+        "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology Indore, India"
+      },
+      {
+        "name": "Om Prakash",
+        "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology Indore, India"
+      },
+      {
+        "name": "Aruna Tiwari",
+        "affiliation": "Department of Computer Science and Engineering, Indian Institute of Technology Indore, India"
+      },
+      {
+        "name": "Meng Joo",
+        "affiliation": "School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore"
+      },
+      {
+        "name": "Weiping Ding",
+        "affiliation": "School of Computer and Technology, Nantong University, Nantong, China"
+      },
+      {
+        "name": "Chin-Teng Lin",
+        "affiliation": "Centre for Artificial Intelligence, University of Technology Sydney, Sydney, Australia"
+      }
+    ],
+    "identifiers": {
+      "MD5": "E97BCBFB337C6978203B39E3BE46EB20"
+    },
+    "keywords": [
+      "Unsupervised learning",
+      "Clustering",
+      "Data mining",
+      "Pattern recognition",
+      "Similarity measures"
+    ],
+    "abstract": "This paper presents a comprehensive study on clustering: exiting methods and developments made at various times. Clustering is defined as an unsupervised learning where the objects are grouped on the basis of some similarity inherent among them. There are different methods for clustering the objects such as hierarchical, partitional, grid, density based and model based. The approaches used in these methods are discussed with their respective states of art and applicability. The measures of similarity as well as the evaluation criteria, which are the central components of clustering are also presented in the paper. The applications of clustering in some fields like image segmentation, object and character recognition and data mining are highlighted.",
+    "headings": [
+      "Introduction",
+      "Hierarchical Clustering (HC) Methods",
+      "Single-linkage Clustering",
+      "Complete-linkage Clustering",
+      "Average-linkage Clustering",
+      "End",
+      "Enhanced Hierarchical Clustering",
+      "(i) Balanced Iterative Reducing and Clustering Using Hierarchies (BIRCH)",
+      "(ii) Clustering Using Representatives (CURE)",
+      "(iii) ROCK",
+      "(iv) CHAMELEON",
+      "Partition Clustering Methods",
+      "Data points",
+      "K-means Clustering",
+      "Fuzzy C-means Clustering",
+      "Procedure for FCM",
+      "Set up a value of c (number of cluster);",
+      "Measures of Similarities",
+      "Minkowski: Distance Measures for Numeric Attributes",
+      "Cosine Measure",
+      "Pearson Correlation Measure",
+      "Extended Jaccard Measure",
+      "Dice Coefficient Measure",
+      "Choice of Suitable Similarity Measure",
+      "Variants of Clustering Methods",
+      "Graph (Theoretic) Clustering",
+      "Spectral Clustering Algorithms [181]",
+      "Un-normalized Spectral Clustering",
+      "Normalized Spectral Clustering According to Shi and Malik (2000)[180]",
+      "Model Based Clustering Methods",
+      "(i) Decision Trees",
+      "(ii) Neural Networks",
+      "Mixture Density-Based Clustering",
+      "Procedure of EM algorithm",
+      "Grid-Based Clustering Methods",
+      "The basic steps of Grid based algorithm",
+      "Define a set of grid cells",
+      "Assign objects to the appropriate grid cell and compute the density of each cell",
+      "Eliminate cells, whose density is below a certain threshold",
+      "Form clusters from contiguous groups of dense cells",
+      "Evolutionary Approaches Based Clustering Methods",
+      "Associate a fitness value with each solution. Typically fitness is inversely",
+      "Search Based Clustering Approaches",
+      "Collaborative Fuzzy Clustering",
+      "Input: S (instance set), K (number of clusters), n (population size)",
+      "until some termination condition is satisfied",
+      "Multi Objective Clustering",
+      "Overlapping Clustering or Overlapping Community Detection",
+      "Evaluation Criteria",
+      "Internal Quality Criteria Measures",
+      "Sum of Squared Error",
+      "Scatter Criteria",
+      "Condorcet's Criterion.",
+      "The C-criterion",
+      "Category Utility Metric",
+      "Edge Cut Metrics",
+      "External Quality Criteria Measures",
+      "Mutual Information Based Measure",
+      "Rand Index",
+      "F-measure",
+      "Jaccard Index",
+      "Fowlkes-Mallows Index",
+      "Confusion Matrix",
+      "Applications",
+      "Image Segmentation",
+      "Bioinformatics-Gene Expression Data",
+      "Object Recognition",
+      "Character Recognition",
+      "Information Retrieval",
+      "Data Mining",
+      "Spatial Data Analysis",
+      "Business",
+      "Data Reduction",
+      "Big Data Mining",
+      "Other Applications",
+      "Choice of Appropriate Clustering Methods",
+      "Fig. 1",
+      "Fig. 2",
+      "Fig. 4",
+      "Fig. 5",
+      "Minimize",
+      "Fig. 7",
+      "Fig. 8",
+      "4 .",
+      "Fig. 10",
+      "Table 3"
+    ],
+    "top_references": [
+      {
+        "title": "Clustering Methods",
+        "authors": [
+          "L Rokach"
+        ],
+        "publisher": "Springer",
+        "journal": "Data Mining and Knowledge Discovery Handbook",
+        "year": "2005",
+        "pages": null,
+        "type": null,
+        "raw_text": "clustering methods data mining and knowledge discovery handbook springer l rokach"
+      },
+      {
+        "title": "Data Clustering: 50 years beyond k-means",
+        "authors": [
+          "A K Jain"
+        ],
+        "publisher": null,
+        "journal": "Pattern Recognition Letters",
+        "year": "2010",
+        "pages": null,
+        "type": null,
+        "raw_text": "data clustering: 50 years beyond k-means pattern recognition letters a k jain"
+      },
+      {
+        "title": "A Fast and robust general purpose clustering algorithm",
+        "authors": [
+          "V E Castro",
+          "J Yang"
+        ],
+        "publisher": null,
+        "journal": "International Conference on Artificial Intelligence",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "a fast and robust general purpose clustering algorithm international conference on artificial intelligence v e castro j yang"
+      },
+      {
+        "title": "How Many Clusters? Which Clustering Method? Answers Via Model-Based Cluster Analysis",
+        "authors": [],
+        "publisher": null,
+        "journal": "How Many Clusters? Which Clustering Method? Answers Via Model-Based Cluster Analysis",
+        "year": "1998",
+        "pages": null,
+        "type": null,
+        "raw_text": "how many clusters? which clustering method? answers via model-based cluster analysis how many clusters? which clustering method? answers via model-based cluster analysis"
+      },
+      {
+        "title": "Data Clustering: A review",
+        "authors": [
+          "A K Jain",
+          "M N Murty",
+          "P J Flynn"
+        ],
+        "publisher": null,
+        "journal": "ACM Computing Surveys",
+        "year": "1999",
+        "pages": null,
+        "type": null,
+        "raw_text": "data clustering: a review acm computing surveys a k jain m n murty p j flynn"
+      }
+    ]
+  },
+  "Cardioprotection from ischemia.pdf": {
+    "title": "Cardioprotection from ischemia and reperfusion injury by Withania somnifera: A hemodynamic, biochemical and histopathological assessment",
+    "funders": [
+      "Ministry of Environment and Forests, India"
+    ],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Suresh Kumar Gupta",
+        "affiliation": "Pharmacology"
+      },
+      {
+        "name": "Ipseeta Mohanty",
+        "affiliation": "Pharmacology"
+      },
+      {
+        "name": "Keval Krishan Talwar",
+        "affiliation": "Cardiology and 3 Pathology, Institute of Medical Sciences, New Delhi, All India, India"
+      },
+      {
+        "name": "Amit Dinda",
+        "affiliation": null
+      },
+      {
+        "name": "Sujata Joshi",
+        "affiliation": "Pharmacology"
+      },
+      {
+        "name": "Pankaj Bansal",
+        "affiliation": "Pharmacology"
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Pharmacology"
+      },
+      {
+        "name": "Dharamvir Singh",
+        "affiliation": "Pharmacology"
+      },
+      {
+        "name": "S K Gupta",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences, Ansari Nagar, India"
+      }
+    ],
+    "identifiers": {
+      "MD5": "2948B50E0BAB2CEB4A0EC6C7A3521282"
+    },
+    "keywords": [
+      "myocardial infarction",
+      "Withania somnifera",
+      "Vitamin E",
+      "reperfusion",
+      "antioxidants",
+      "adaptogens"
+    ],
+    "abstract": "The efficacy of Withania somnifera (Ws) to limit myocardial injury after ischemia and reperfusion was explored and compared to that of Vit E, a reference standard known to reduce mortality and infarct size due to myocardial infarction. Wistar rats (150-200 g) were divided into six groups and received orally saline (sham, control group), Ws-50/kg (Ws control and treated group) and Vit E-100 mg/kg (Vit E control and treated group) respectively for 1 month. On the 31st day, rats of the control, Vit E and Ws treated groups were anesthetized and subjected to 45 min occlusion of the LAD coronary artery followed by 60 min reperfusion. Hemodynamic parameters: systolic, diastolic and mean arterial pressure (SAP, DAP, MAP), heart rate (HR), left ventricular end diastolic pressure (LVEDP), left ventricular peak (+)LVdP/dt and (-)LVdP/dt were monitored. Hearts were removed and processed for histopathological and biochemical studies: Myocardial enzyme viz, creatin phosphokinase (CPK), and antioxidant parameters: malondialdehyde (MDA), glutathione (GSH), superoxide dismutase (SOD), catalase (CAT), glutathione peroxidase (GSHPx) were estimated. Postischemic reperfusion produced significant cardiac necrosis, depression of left ventricular functions (MAP, LVEDP, (+) and (-)LVdP/dt) and a significant fall in GSH (p < 0.01), SOD, CAT (p < 0.05), LDH and CPK (p < 0.01) as well as an increase in MDA level (p < 0.05) in the control group rats as compared to sham group. The changes in levels of protein and GPx was however, not significant. Ws and Vit E favorably modulated most of the hemodynamic, biochemical and histopathological parameters though no significant restoration in GSH, MAP (with Vit E) were observed. Ws on chronic administration markedly augmented antioxidants (GSH, GSHPx, SOD, CAT) while Vit E did not stimulate the synthesis of endogenous antioxidants compared to sham. Results indicate that Ws significantly reduced myocardial injury and emphasize the beneficial action of Ws as a cardioprotective agent. (Mol Cell Biochem 260: 39-47, 2004)",
+    "headings": [
+      "Introduction",
+      "Materials and methods",
+      "Experimental animals",
+      "Test drugs",
+      "Experimental models of MI",
+      "Isoproterenol induced MI",
+      "Ischemia-reperfusion (I-R) model in rats",
+      "Experimental groups",
+      "Sham groups",
+      "I-R groups",
+      "Experimental parameters studied",
+      "Hemodynamic studies",
+      "Biochemical studies",
+      "Histopathological studies",
+      "←→← →",
+      "Statistical analysis",
+      "Results",
+      "Isoproterenol model of myocardial necrosis",
+      "← →←→",
+      "← →←→",
+      "Ischemia reperfusion model of myocardial injury",
+      "Hemodynamic variables",
+      "Biochemical parameters",
+      "Myocardial adaptogenic property.",
+      "Histopathological assessment",
+      "Discussion",
+      "Fig. 1 .",
+      "Fig. 2 .Fig. 3 .",
+      "Fig 4 .Fig 5 .",
+      "Fig 8 .",
+      "Plate 1 .",
+      "Plate 2 .",
+      "Plate 4 .",
+      "Table 1 ."
+    ],
+    "top_references": [
+      {
+        "title": "Reperfusion injury: A review of the pathophysiology, clinical manifestations and therapeutic options",
+        "authors": [
+          "Rjs Maxwell"
+        ],
+        "publisher": null,
+        "journal": "Int J Cardiol",
+        "year": "1997",
+        "pages": null,
+        "type": null,
+        "raw_text": "reperfusion injury: a review of the pathophysiology, clinical manifestations and therapeutic options int j cardiol rjs maxwell"
+      },
+      {
+        "title": "Myocardial alteration due to free radical generation",
+        "authors": [
+          "K P Burton",
+          "J M Mccord",
+          "G Ghai"
+        ],
+        "publisher": null,
+        "journal": "Am J Physiol",
+        "year": "1984",
+        "pages": null,
+        "type": null,
+        "raw_text": "myocardial alteration due to free radical generation am j physiol k p burton j m mccord g ghai"
+      },
+      {
+        "title": "Free radicals and their involvement during long term myocardial ischemia and reperfusion",
+        "authors": [
+          "J M Downye"
+        ],
+        "publisher": null,
+        "journal": "Ann Env Physiol",
+        "year": "1990",
+        "pages": null,
+        "type": null,
+        "raw_text": "free radicals and their involvement during long term myocardial ischemia and reperfusion ann env physiol j m downye"
+      },
+      {
+        "title": "Dietary antioxidant flavonoids and risk of coronary heart diseases. The Zutphen Elderly Study",
+        "authors": [
+          "Mgl Hertog",
+          "Ejm Feskens",
+          "Pch Hollam",
+          "M B Katan",
+          "D Kromhout"
+        ],
+        "publisher": null,
+        "journal": "Lancet",
+        "year": "1993",
+        "pages": null,
+        "type": null,
+        "raw_text": "dietary antioxidant flavonoids and risk of coronary heart diseases. the zutphen elderly study lancet mgl hertog ejm feskens pch hollam m b katan d kromhout"
+      },
+      {
+        "title": "Constituents of Withania somnifera",
+        "authors": [
+          "D Lavie",
+          "E Glotter",
+          "Y Shro"
+        ],
+        "publisher": null,
+        "journal": "Dun IV J Chem Soc",
+        "year": "1965",
+        "pages": null,
+        "type": null,
+        "raw_text": "constituents of withania somnifera dun iv j chem soc d lavie e glotter y shro"
+      }
+    ]
+  },
+  "Controlled synthesis.pdf": {
+    "title": "Controlled synthesis of size-tunable nickel and nickel oxide nanoparticles using water-in-oil microemulsions",
+    "funders": [
+      "University Grant Commission",
+      "UGC",
+      "Department of Science and Technology",
+      "DST"
+    ],
+    "publisher": null,
+    "pub_date": "2013-04-19",
+    "authors": [
+      {
+        "name": "Ajeet Kumar",
+        "affiliation": "Department of Chemistry, University of Delhi, Delhi, India"
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Department of Chemistry, University of Delhi, Delhi, India"
+      },
+      {
+        "name": "Arnab De",
+        "affiliation": "Department of Microbiology and Immunology, Columbia University, USA"
+      },
+      {
+        "name": "Ravi Shankar",
+        "affiliation": "Department of Chemistry, University of Delhi, Delhi, India"
+      },
+      {
+        "name": "Subho Mozumdar",
+        "affiliation": "Department of Chemistry, University of Delhi, Delhi, India"
+      }
+    ],
+    "identifiers": {
+      "MD5": "31D2F30772CEAC444FC46D3810E06C37",
+      "DOI": "10.1088/2043-6262/4/2/025009"
+    },
+    "keywords": [
+      "nickel nanoparticles",
+      "nickel oxide nanoparticles",
+      "water-in-oil microemulsions",
+      "non-ionic surfactant"
+    ],
+    "abstract": "Industrial demands have generated a growing need to synthesize pure metal and metal-oxide nanoparticles of a desired size. We report a novel and convenient method for the synthesis of spherical, size tunable, well dispersed, stable nickel and nickel oxide nanoparticles by reduction of nickel nitrate at room temperature in a TX-100/n-hexanol/cyclohexane/water system by a reverse microemulsion route. We determined that reduction with alkaline sodium borohydrate in nitrogen atmosphere leads to the formation of nickel nanoparticles, while the use of hydrazine hydrate in aerobic conditions leads to the formation of nickel oxide nanoparticles. The influence of several reaction parameters on the size of nickel and nickel oxide nanoparticles were evaluated in detail. It was found that the size can be easily controlled either by changing the molar ratio of water to surfactant or by simply altering the concentration of the reducing agent. The morphology and structure of the nanoparticles were characterized by quasi-elastic light scattering (QELS), transmission electron microscopy (TEM), x-ray diffraction (XRD), electron diffraction analysis (EDA) and energy dispersive x-ray (EDX) spectroscopy. The results show that synthesized nanoparticles are of high purity and have an average size distribution of 5-100 nm. The nanoparticles prepared by our simple methodology have been successfully used for catalyzing various chemical reactions.",
+    "headings": [
+      "Introduction",
+      "Material and methods",
+      "Preparation of nickel and nickel oxide nanoparticles",
+      "Results and discussion",
+      "Influence of W o over particle size",
+      "Effect of concentration of reducing agent on particle size",
+      "Effect of concentration of metal ion on particle size",
+      "Characterization of nickel and nickel oxide nanoparticles",
+      "Transmission electron microscopic (TEM) analysis",
+      "Element",
+      "X-ray diffraction (XRD) analysis",
+      "Selected area electron diffraction (SAED) analysis",
+      "Energy dispersive x-ray (EDX) analysis",
+      "Catalytic activity",
+      "Conclusions",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Figure 3 .",
+      "Figure 4 .",
+      "Figure 5 .Figure 6 .",
+      "Figure 7 .",
+      "Figure 5 (",
+      "Dropwise addition Nitrogen atmosphere Dropwise addition Without Nitrogen atmosphere Nickel Nanoparticles in microemulsion Nickel oxide Nanoparticles in Microemulsion Ostwald Ripening Ostwald Ripening Nickel Nanoparticles Drpwise addition of absolute ethanol Washed Thrice with Ethanol Centrifuged and Redispersed in ethanol Drpwise addition of absolute ethanol Washed Thrice with Ethanol Centrifuged and Redispersed in ethanol Nickel oxide Nanoparticles Synthesis of Nickel Nanoparticles Synthesis of Nickel oxide Nanoparticles",
+      "Table 1 .",
+      "Table 2 .",
+      "Table 3 ."
+    ],
+    "top_references": [
+      {
+        "title": "Catal. Commun",
+        "authors": [
+          "A Kumar",
+          "S Kumar",
+          "A Saxena",
+          "A De",
+          "S Mozumdar"
+        ],
+        "publisher": null,
+        "journal": "Catal. Commun",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "catal. commun catal. commun a kumar s kumar a saxena a de s mozumdar"
+      },
+      {
+        "title": "Chem. Mater",
+        "authors": [
+          "M Knecht",
+          "R Garcia-Martinez",
+          "J Crooks",
+          "R M"
+        ],
+        "publisher": null,
+        "journal": "Chem. Mater",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "chem. mater chem. mater m knecht r garcia-martinez j crooks r m"
+      },
+      {
+        "title": "Pharm. Res",
+        "authors": [
+          "J D Patel",
+          "O Canar",
+          "J Jones"
+        ],
+        "publisher": null,
+        "journal": "Pharm. Res",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "pharm. res pharm. res j d patel o canar j jones"
+      },
+      {
+        "title": "Mater. Rev",
+        "authors": [
+          "L H Tan",
+          "F Li",
+          "L L Liu"
+        ],
+        "publisher": null,
+        "journal": "Mater. Rev",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "mater. rev mater. rev l h tan f li l l liu"
+      },
+      {
+        "title": "Trans. Nonferr. Met. Soc. China",
+        "authors": [
+          "R Y Chen",
+          "K G Zhou"
+        ],
+        "publisher": null,
+        "journal": "Trans. Nonferr. Met. Soc. China",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "trans. nonferr. met. soc. china trans. nonferr. met. soc. china r y chen k g zhou"
+      }
+    ]
+  },
+  "Cutting Edge.pdf": {
+    "title": "Cutting Edge: Multiple Sclerosis-Like Lesions Induced by Effector CD8 T Cells Recognizing a Sequestered Antigen on Oligodendrocytes",
+    "funders": [],
+    "publisher": null,
+    "pub_date": "2014-05-16",
+    "authors": [
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": "Jan Bauer",
+        "affiliation": "Center for Brain Research, Medical University of Vienna, Vienna, Austria"
+      },
+      {
+        "name": "Marc Audebert",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": "Ari Waisman",
+        "affiliation": "First Medical Department, Johannes Gutenberg University, Mainz, Germany"
+      },
+      {
+        "name": "Tanja Scheikl",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": "Jacques Zappulla",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": "Sabine Desbois",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": "Hans Lassmann",
+        "affiliation": "Center for Brain Research, Medical University of Vienna, Vienna, Austria"
+      },
+      {
+        "name": "Roland S Liblau",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": "Lennart T Mars",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563, Toulouse, France"
+      },
+      {
+        "name": null,
+        "affiliation": "French Institute of Health and Medical Research"
+      },
+      {
+        "name": null,
+        "affiliation": "Medical University of Vienna"
+      },
+      {
+        "name": null,
+        "affiliation": "Johannes Gutenberg-Universität Mainz"
+      }
+    ],
+    "identifiers": {
+      "MD5": "14A951D2FFE8AEF57A20E481EC757392",
+      "DOI": "10.4049/jimmunol.181.3.1617"
+    },
+    "keywords": [],
+    "abstract": "CD8 T cells are emerging as important players in multiple sclerosis (MS) pathogenesis, although their direct contribution to tissue damage is still debated. To assess whether autoreactive CD8 T cells can contribute to the pronounced loss of oligodendrocytes observed in MS plaques, we generated mice in which the model Ag influenza hemagglutinin is selectively expressed in oligodendrocytes. Transfer of preactivated hemagglutininspecific CD8 T cells led to inflammatory lesions in the optic nerve, spinal cord, and brain. These lesions, associating CD8 T cell infiltration with focal loss of oligodendrocytes, demyelination, and microglia activation, were very reminiscent of active MS lesions. Thus, our study demonstrates the potential of CD8 T cells to induce oligodendrocyte lysis in vivo as a likely consequence of direct Ag-recognition. These results provide new insights with regard to CNS tissue damage mediated by CD8 T cells and for understanding the role of CD8 T cells in MS.",
+    "headings": [
+      "Materials and Methods",
+      "Mice, generation, and characterization of the Rosa-Stop-HA knock-in mice",
+      "In vitro differentiation, GFP transduction, adoptive transfer of HA-specific Tc1 cells, and in vivo cytotoxicity",
+      "Histopathology",
+      "Results and Discussion",
+      "Transfer of effector HA-specific CD8 T cells into HA-expressing mice results in CNS inflammation and demyelination",
+      "FIGURE 1 .",
+      "FIGURE 2 .",
+      "FIGURE 3 .",
+      "FIGURE 4 .",
+      "Table I ."
+    ],
+    "top_references": [
+      {
+        "title": "Autoreactive CD8 T cells in organ-specific autoimmunity. Emerging targets for therapeutic intervention",
+        "authors": [
+          "R S Liblau",
+          "F S Wong",
+          "L T Mars",
+          "P Santamaria"
+        ],
+        "publisher": null,
+        "journal": "Immunity",
+        "year": "2002",
+        "pages": null,
+        "type": null,
+        "raw_text": "autoreactive cd8 t cells in organ-specific autoimmunity. emerging targets for therapeutic intervention immunity r s liblau f s wong l t mars p santamaria"
+      },
+      {
+        "title": "Cytotoxic T lymphocytes in autoimmune and degenerative CNS diseases",
+        "authors": [
+          "H Neumann",
+          "I M Medana",
+          "J Bauer",
+          "H Lassmann"
+        ],
+        "publisher": null,
+        "journal": "Trends Neurosci",
+        "year": "2002",
+        "pages": null,
+        "type": null,
+        "raw_text": "cytotoxic t lymphocytes in autoimmune and degenerative cns diseases trends neurosci h neumann i m medana j bauer h lassmann"
+      },
+      {
+        "title": "Multiple sclerosis: T-cell receptor expression in distinct brain regions",
+        "authors": [
+          "A Junker",
+          "J Ivanidze",
+          "J Malotka",
+          "I Eiglmeier",
+          "H Lassmann",
+          "H Wekerle",
+          "E Meinl",
+          "R Hohlfeld",
+          "K Dornmair"
+        ],
+        "publisher": null,
+        "journal": "Brain",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "multiple sclerosis: t-cell receptor expression in distinct brain regions brain a junker j ivanidze j malotka i eiglmeier h lassmann h wekerle e meinl r hohlfeld k dornmair"
+      },
+      {
+        "title": "MHC class I-restricted lysis of human oligodendrocytes by myelin basic protein peptide-specific CD8 T lymphocytes",
+        "authors": [
+          "A Jurewicz",
+          "W E Biddison",
+          "J P Antel"
+        ],
+        "publisher": null,
+        "journal": "J. Immunol",
+        "year": "1998",
+        "pages": null,
+        "type": null,
+        "raw_text": "mhc class i-restricted lysis of human oligodendrocytes by myelin basic protein peptide-specific cd8 t lymphocytes j. immunol a jurewicz w e biddison j p antel"
+      },
+      {
+        "title": "High prevalence of autoreactive, neuroantigen-specific CD8 ϩ T cells in multiple sclerosis revealed by novel flow cytometric assay",
+        "authors": [
+          "M P Crawford",
+          "S X Yan",
+          "S B Ortega",
+          "R S Mehta",
+          "R E Hewitt",
+          "D A Price",
+          "P Stastny",
+          "D C Douek",
+          "R A Koup",
+          "M K Racke",
+          "N J Karandikar"
+        ],
+        "publisher": null,
+        "journal": "Blood",
+        "year": "2004",
+        "pages": null,
+        "type": null,
+        "raw_text": "high prevalence of autoreactive, neuroantigen-specific cd8 ϩ t cells in multiple sclerosis revealed by novel flow cytometric assay blood m p crawford s x yan s b ortega r s mehta r e hewitt d a price p stastny d c douek r a koup m k racke n j karandikar"
+      }
+    ]
+  },
+  "Endogenous IRAK-M Attenuates.pdf": {
+    "title": "Endogenous IRAK-M Attenuates Postinfarction Remodeling Through Effects on Macrophages and Fibroblasts",
+    "funders": [
+      "National Institutes of Health",
+      "Wilf Family Cardiovascular Research Institute"
+    ],
+    "publisher": null,
+    "pub_date": "2023-02-22",
+    "authors": [
+      {
+        "name": "Nikolaos G Frangogiannis",
+        "affiliation": "Department of Medicine (Cardiology), The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": "Arterioscler Thromb",
+        "affiliation": "Department of Medicine (Cardiology), The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": "Vasc Biol",
+        "affiliation": "Department of Medicine (Cardiology), The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": "Wei Chen",
+        "affiliation": "Department of Medicine (Cardiology), The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Department of Medicine (Cardiology), The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": "Na Li",
+        "affiliation": "Department of Medicine (Cardiology), The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": "Jinyu Sun",
+        "affiliation": "Division of Cardiology, Chinese Academy of Medical Sciences, Department of Medicine, Peking Union Medical College Hospital, Peking Union Medical College, Beijing, China ("
+      },
+      {
+        "name": "Amit Gupta",
+        "affiliation": "Baylor College of Medicine, Houston"
+      },
+      {
+        "name": "Dong-Wook Lee",
+        "affiliation": "Baylor College of Medicine, Houston"
+      },
+      {
+        "name": "Qi Tian",
+        "affiliation": "The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, 1300 Morris Park Avenue Forchheimer G46B, Bronx"
+      },
+      {
+        "name": "Marcin Dobaczewski",
+        "affiliation": "The Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, 1300 Morris Park Avenue Forchheimer G46B, Bronx"
+      }
+    ],
+    "identifiers": {
+      "MD5": "98BF9C992AE68C10DB57545FF10C088B",
+      "DOI": "10.1161/ATVBAHA.112.300310/-/DC1."
+    },
+    "keywords": [],
+    "abstract": "Objective-Effective postinfarction repair requires timely suppression of innate immune signals to prevent the catastrophic consequences of uncontrolled inflammation on cardiac geometry and function. In macrophages, interleukin-1 receptorassociated kinase (IRAK)-M acts as a functional decoy preventing uncontrolled toll-like receptor /interleukin-1-mediated responses. Our study investigates the role of IRAK-M as a negative regulator of the postinfarction inflammatory response and as a modulator of cardiac remodeling. Methods and Results-In wild-type mouse infarcts IRAK-M was upregulated in infiltrating macrophages and fibroblasts exhibiting a biphasic response. When compared with wild-type animals, infarcted IRAK-M -/-mice had enhanced adverse remodeling and worse systolic dysfunction; however, acute infarct size was comparable between groups. Adverse remodeling in IRAK-M -/-animals was associated with enhanced myocardial inflammation and protease activation. The protective actions of IRAK-M involved phenotypic modulation of macrophages and fibroblasts. IRAK-M -/-infarcts showed increased infiltration with proinflammatory CD11b+/Ly6C hi monocytes; leukocytes harvested from IRAK-M-null infarcts exhibited accentuated cytokine expression. In vitro, IRAK-M expression was upregulated in cytokine-stimulated murine cardiac fibroblasts and suppressed their matrix-degrading properties without affecting their inflammatory activity. Conclusion-Endogenous IRAK-M attenuates adverse postinfarction remodeling suppressing leukocyte inflammatory activity, while inhibiting fibroblast-mediated matrix degradation.",
+    "headings": [
+      "Materials and Methods",
+      "Animal Protocols",
+      "Echocardiography",
+      "Perfusion Fixation and Assessment of Ventricular Volumes",
+      "Immunohistochemistry and Quantitative Histology",
+      "RNA Extraction and Quantitative Polymerase Chain Reaction Assay",
+      "Zymography",
+      "Preparation of Single Cell Suspensions From Infarcted Mouse Hearts and Flow Cytometric Analysis",
+      "Fibroblast Isolation and Stimulation",
+      "Isolation of Fibroblasts and Macrophages From Infarcted Hearts",
+      "Immunofluorescent Staining of Isolated Cells and Paraffin-Embedded Sections",
+      "Statistical Analysis",
+      "Results",
+      "Biphasic Upregulation of IRAK-M in Reperfused Mouse Infarcts",
+      "IRAK-M Is Localized in Infarct Macrophages and Myofibroblasts",
+      "IRAK-M Loss Is Associated With Enhanced Adverse Remodeling Despite the Absence of Effects on the Size of the Infarct",
+      "IRAK-M -/ -Mice Have Enhanced Postinfarction Inflammation Exhibiting Increased Myocardial Cytokine mRNA Expression and Accentuated Macrophage and Neutrophil Infiltration",
+      "IRAK-M -/-Mice Have Increased MMP Expression and Activity in the Infarcted Heart Associated With Reduced Collagen Deposition in the Healing Scar",
+      "Cytokine-Stimulated IRAK-M Expression in Cardiac Fibroblasts",
+      "IRAK-M Expression Limits the Matrix-Degrading Potential but Not the Proinflammatory Capacity of IL-1β-Stimulated Cardiac Fibroblasts",
+      "IRAK-M Absence Is Associated With Increased Leukocyte Inflammatory Activity and Enhanced Recruitment of Proinflammatory Ly6C hi Monocytes",
+      "Discussion",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Figure 3 .",
+      "Figure 4 .",
+      "Figure 5 .",
+      "Figure 6 ."
+    ],
+    "top_references": [
+      {
+        "title": "Nonresolving inflammation",
+        "authors": [
+          "C Nathan",
+          "A Ding"
+        ],
+        "publisher": null,
+        "journal": "Cell",
+        "year": "2010",
+        "pages": null,
+        "type": null,
+        "raw_text": "nonresolving inflammation cell c nathan a ding"
+      },
+      {
+        "title": "Mechanisms of resolution of inflammation: a focus on cardiovascular disease",
+        "authors": [
+          "B H Maskrey",
+          "I L Megson",
+          "P D Whitfield",
+          "A G Rossi"
+        ],
+        "publisher": null,
+        "journal": "Arterioscler Thromb Vasc Biol",
+        "year": "2011",
+        "pages": null,
+        "type": null,
+        "raw_text": "mechanisms of resolution of inflammation: a focus on cardiovascular disease arterioscler thromb vasc biol b h maskrey i l megson p d whitfield a g rossi"
+      },
+      {
+        "title": "Regulation of the inflammatory response in cardiac repair",
+        "authors": [
+          "N G Frangogiannis"
+        ],
+        "publisher": null,
+        "journal": "Circ Res",
+        "year": "2012",
+        "pages": null,
+        "type": null,
+        "raw_text": "regulation of the inflammatory response in cardiac repair circ res n g frangogiannis"
+      },
+      {
+        "title": "Downloaded from",
+        "authors": [],
+        "publisher": null,
+        "journal": "Downloaded from",
+        "year": "2023",
+        "pages": null,
+        "type": null,
+        "raw_text": "downloaded from downloaded from"
+      },
+      {
+        "title": "Ventricular enlargement and reduced survival after myocardial infarction",
+        "authors": [
+          "M A Pfeffer",
+          "J M Pfeffer"
+        ],
+        "publisher": null,
+        "journal": "Circulation",
+        "year": "1987",
+        "pages": null,
+        "type": null,
+        "raw_text": "ventricular enlargement and reduced survival after myocardial infarction circulation m a pfeffer j m pfeffer"
+      }
+    ]
+  },
+  "First-in-Human Study.pdf": {
+    "title": "First-in-Human Study of Bamlanivimab in a Randomized Trial of Hospitalized Patients With COVID-19",
+    "funders": [
+      "National Institutes of Health",
+      "NIH",
+      "Merck",
+      "Sanofi-Pasteur",
+      "Eli Lilly and Company. CONFLICT OF INTEREST P.C",
+      "Pfizer",
+      "Roche",
+      "Sanofi",
+      "Gilead",
+      "Regeneron",
+      "Novartis",
+      "Genentech-Roche",
+      "Eli Lilly and Company",
+      "Quidel"
+    ],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Peter Chen",
+        "affiliation": "Department of Medicine, Cedars-Sinai Medical Center, Women's Guild Lung Institute, Los Angeles, USA"
+      },
+      {
+        "name": "Gourab Datta",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Ying Grace Li",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Jenny Chien",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Karen Price",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Emmanuel Chigutsa",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Patricia Brown-Augsburger",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Josh Poorbaugh",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Jeffrey Fill",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Robert J Benschop",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Nadine Rouphael",
+        "affiliation": "Emory University, Atlanta, USA"
+      },
+      {
+        "name": "Ariel Kay",
+        "affiliation": "Emory University, Atlanta, USA"
+      },
+      {
+        "name": "Mark J Mulligan",
+        "affiliation": "NYU Grossman School of Medicine, New York, USA"
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "NYU Grossman School of Medicine, New York, USA"
+      },
+      {
+        "name": "William A Fischer",
+        "affiliation": "The University of North Carolina School of Medicine, Chapel Hill, USA"
+      },
+      {
+        "name": "Michael Dougan",
+        "affiliation": "Division of Gastroenterology, Department of Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, USA"
+      },
+      {
+        "name": "Paul Klekotka",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Ajay Nirula",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      },
+      {
+        "name": "Charles Benson",
+        "affiliation": "Eli Lilly and Company, Indianapolis, USA"
+      }
+    ],
+    "identifiers": {
+      "MD5": "B4D2345A091171067C65BDE358F4F5AE",
+      "DOI": "10.1002/cpt.2405"
+    },
+    "keywords": [],
+    "abstract": "Therapeutics for patients hospitalized with coronavirus disease 2019 (COVID-19) are urgently needed during the pandemic. Bamlanivimab is a potent neutralizing monoclonal antibody that blocks severe acute respiratory syndrome-coronavirus 2 (SARS-CoV-2) attachment and entry into human cells, which could potentially lead to therapeutic benefit. J2W-MC-PYAA was a randomized, double-blind, sponsor unblinded, placebo-controlled, single ascending dose first-in-human trial (NCT04411628) in hospitalized patients with COVID-19. A total of 24 patients received either placebo or a single dose of bamlanivimab (700 mg, 2,800 mg, or 7,000 mg). The primary objective was assessment of safety and tolerability, including adverse events and serious adverse events, with secondary objectives of pharmacokinetic (PK) and pharmacodynamic analyses. Treatment-emergent adverse event (TEAE) rates were identical in the placebo and pooled bamlanivimab groups (66.7%). There were no apparent dose-related increases in the number or severity of TEAEs. There were no serious adverse events or deaths during the study, and no discontinuations due to adverse events. PKs of bamlanivimab is linear and exposure increased proportionally with dose following single i.v. administration. The half-life was ~ 17 days. These results demonstrate the favorable safety profile of bamlanivimab, and provided the initial critical evaluation of safety, tolerability, and PKs in support of the development of bamlanivimab in several ongoing clinical trials.",
+    "headings": [
+      "METHODS Study design and participants",
+      "Randomization and blinding",
+      "Nonclinical safety consideration",
+      "Procedures",
+      "Outcomes",
+      "PD assays",
+      "PK assay",
+      "Surrogate virus neutralization assay",
+      "Serology",
+      "Statistical analysis",
+      "RESULTS Patients",
+      "Safety and tolerability",
+      "Pharmacokinetics",
+      "Viral end points",
+      "Serology and biomarkers",
+      "Symptom outcomes",
+      "DISCUSSION",
+      "Figure 1",
+      "ARTICLE 15326535, 2021, 6 ,",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4",
+      "Table 1",
+      "Table 2",
+      "Table 3"
+    ],
+    "top_references": [
+      {
+        "title": "Remdesivir for 5 or 10 Days in Patients with Severe Covid-19",
+        "authors": [
+          "J D Goldman"
+        ],
+        "publisher": null,
+        "journal": "N. Engl. J. Med",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "remdesivir for 5 or 10 days in patients with severe covid-19 n. engl. j. med j d goldman"
+      },
+      {
+        "title": "Effect of remdesivir vs standard care on clinical status at 11 days in patients with moderate COVID-19: A randomized clinical trial",
+        "authors": [
+          "C D Spinner"
+        ],
+        "publisher": null,
+        "journal": "JAMA",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "effect of remdesivir vs standard care on clinical status at 11 days in patients with moderate covid-19: a randomized clinical trial jama c d spinner"
+      },
+      {
+        "title": "Remdesivir for the treatment of covid-19 -final report",
+        "authors": [
+          "J H Beigel"
+        ],
+        "publisher": null,
+        "journal": "N. Engl. J. Med",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "remdesivir for the treatment of covid-19 -final report n. engl. j. med j h beigel"
+      },
+      {
+        "title": "Baricitinib restrains the immune dysregulation in severe COVID-19 patients",
+        "authors": [
+          "V Bronte"
+        ],
+        "publisher": null,
+        "journal": "J. Clin. Invest",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "baricitinib restrains the immune dysregulation in severe covid-19 patients j. clin. invest v bronte"
+      },
+      {
+        "title": "Mechanism of baricitinib supports artificial intelligence-predicted testing in COVID-19 patients",
+        "authors": [
+          "J Stebbing"
+        ],
+        "publisher": null,
+        "journal": "EMBO Mol. Med",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "mechanism of baricitinib supports artificial intelligence-predicted testing in covid-19 patients embo mol. med j stebbing"
+      }
+    ]
+  },
+  "High Oxygen Nanocomposite.pdf": {
+    "title": "High Oxygen Nanocomposite Barrier Films Based on Xylan and Nanocrystalline Cellulose",
+    "funders": [],
+    "publisher": null,
+    "pub_date": "2010-11-19",
+    "authors": [
+      {
+        "name": "Amit Saxena",
+        "affiliation": "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, USA"
+      },
+      {
+        "name": "Thomas J Elder",
+        "affiliation": "USDA-Forest Service, Southern Research Station, Shreveport Highway, Pineville, USA"
+      },
+      {
+        "name": "Jeffrey Kenvin",
+        "affiliation": "Micromeritics Instrument Corporation, Norcross, USA"
+      },
+      {
+        "name": "Arthur J Ragauskas",
+        "affiliation": "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, USA"
+      },
+      {
+        "name": null,
+        "affiliation": "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia"
+      }
+    ],
+    "identifiers": {
+      "MD5": "4ECE97CFC4FEF78CA2486F7BF29ADA7C"
+    },
+    "keywords": [
+      "Nanocomposites",
+      "Xylan",
+      "Nanocrystalline cellulose",
+      "Oxygen barrier"
+    ],
+    "abstract": "The goal of this work is to produce nanocomposite film with low oxygen permeability by casting an aqueous solution containing xylan, sorbitol and nanocrystalline cellulose. The morphology of the resulting nanocomposite films was examined by scanning electron microscopy and atomic force microscopy which showed that control films containing xylan and sorbitol had a more open structure as compared to xylan-sorbitol films containing sulfonated nanocrystalline cellulose. The average pore diameter, bulk density, porosity and tortuosity factor measurements of control xylan films and nanocomposite xylan films were examined by mercury intrusion porosimetry techniques. Xylan films reinforced with nanocrystalline cellulose were denser and exhibited higher tortuosity factor than the control xylan films. Control xylan films had average pore diameter, bulk density, porosity and tortuosity factor of 0.1730 μm, 0.6165 g/ml , 53.0161% and 1.258, respectively as compared to xylan films reinforced with 50% nanocrystalline cellulose with average pore diameter of 0.0581 μm, bulk density of 1.1513 g/ml, porosity of 22.8906% and tortuosity factor of 2.005. Oxygen transmission rate tests demonstrated that films prepared with xylan, sorbitol and 5%, 10%, 25% and 50% sulfonated nanocrystalline cellulose exhibited a significantly reduced oxygen permeability of 1.1387, 1.0933, 0.8986 and 0.1799 cm 3 μm/m 2 dkPa respectively with respect to films prepared solely from xylan and sorbitol with a oxygen permeability of 189.1665 cm 3 μm/m 2 dkPa. These properties suggested these nanocomposite films have promising barrier properties.",
+    "headings": [
+      "Materials and Methods",
+      "Materials",
+      "Preparation of Nanocrystalline Cellulose",
+      "Oxygen permeability Analysis",
+      "Mercury Intrusion Porosimetry Analysis",
+      "Results and Discussion",
+      "Fig. 3 (",
+      "FIG. 3 .",
+      "FIG. 4 .FIG. 5 .",
+      "Table 1",
+      "Table 2",
+      "Table 3 ."
+    ],
+    "top_references": [
+      {
+        "title": null,
+        "authors": [],
+        "publisher": null,
+        "journal": null,
+        "year": null,
+        "pages": null,
+        "type": null,
+        "raw_text": ""
+      },
+      {
+        "title": "Biofuels, Bioprod. Biorefin",
+        "authors": [
+          "L Shen",
+          "E Worrell",
+          "M Patel"
+        ],
+        "publisher": null,
+        "journal": "Biofuels, Bioprod. Biorefin",
+        "year": "2010",
+        "pages": null,
+        "type": null,
+        "raw_text": "biofuels, bioprod. biorefin biofuels, bioprod. biorefin l shen e worrell m patel"
+      },
+      {
+        "title": "Biomacromolecules",
+        "authors": [
+          "A Samir",
+          "F Alloin",
+          "A Dufresne"
+        ],
+        "publisher": null,
+        "journal": "Biomacromolecules",
+        "year": "2005",
+        "pages": null,
+        "type": null,
+        "raw_text": "biomacromolecules biomacromolecules a samir f alloin a dufresne"
+      },
+      {
+        "title": "Science",
+        "authors": [
+          "A J Ragauskas",
+          "C K Williams",
+          "B H Davison",
+          "G Britovsek",
+          "J Cairney",
+          "C A Eckert",
+          "W J Frederick",
+          "J P Hallett",
+          "D J Leak",
+          "C L Liotta",
+          "J R Mielenz",
+          "R Murphy",
+          "R Templer",
+          "T Tschaplinski"
+        ],
+        "publisher": null,
+        "journal": "Science",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "science science a j ragauskas c k williams b h davison g britovsek j cairney c a eckert w j frederick j p hallett d j leak c l liotta j r mielenz r murphy r templer t tschaplinski"
+      },
+      {
+        "title": "Compos. Sci. Technol",
+        "authors": [
+          "L Petersson",
+          "K Oksman"
+        ],
+        "publisher": null,
+        "journal": "Compos. Sci. Technol",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "compos. sci. technol compos. sci. technol l petersson k oksman"
+      }
+    ]
+  },
+  "Mannan induces ROS-regulated.pdf": {
+    "title": "Mannan induces ROS-regulated, IL-17A-dependent psoriasis arthritis-like disease in mice",
+    "funders": [
+      "Swedish Research Council",
+      "Swedish Strategic Science Foundation",
+      "Knut and Alice Wallenberg Foundation",
+      "Neurinox",
+      "Swedish Rheumatism Association, European Union Masterswitch"
+    ],
+    "publisher": null,
+    "pub_date": "2014-08-18",
+    "authors": [
+      {
+        "name": "Ia Khmaladze",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Tiina Kelkka",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Simon Guerard",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Kajsa Wing",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Angela Pizzolla",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Katarina Lundqvist",
+        "affiliation": "Department of Clinical Dermatology and Venereology, University Hospital, Lund, Sweden"
+      },
+      {
+        "name": "Meirav Holmdahl",
+        "affiliation": "Department of Clinical Dermatology and Venereology, University Hospital, Lund, Sweden"
+      },
+      {
+        "name": "Selva Kutty",
+        "affiliation": null
+      },
+      {
+        "name": "Nandakumar",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": "Rikard Holmdahl",
+        "affiliation": "Medical Inflammation Research, Department of Biochemistry and Biophysics, Karolinska Institute, Stockholm, Sweden"
+      },
+      {
+        "name": null,
+        "affiliation": "Division of Hematology, Depart-ment of Medicine, Hematology Research Unit Helsinki, University of Helsinki and Helsinki University Central Hospital, 000 29, Helsinki, Finland"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Microbiology and Immunology, University of Melbourne, Melbourne, Australia"
+      }
+    ],
+    "identifiers": {
+      "MD5": "A677710A6212552CD2E202A8511DEC2D",
+      "DOI": "10.1073/pnas.1405798111"
+    },
+    "keywords": [],
+    "abstract": "",
+    "headings": [
+      "Significance",
+      "Results",
+      "Redundancy of Adaptive Immunity and Acute Inflammatory Mediators.",
+      "Discussion",
+      "Materials and Methods",
+      "Fig. 1 .",
+      "Fig. 2 .",
+      "Fig. 3 .",
+      "Fig. 4 .",
+      "Fig. 5 .",
+      "Fig. 6 ."
+    ],
+    "top_references": [
+      {
+        "title": "Recent insights into the immunopathogenesis of psoriasis provide new therapeutic opportunities",
+        "authors": [
+          "B J Nickoloff",
+          "F O Nestle"
+        ],
+        "publisher": null,
+        "journal": "J Clin Invest",
+        "year": "2004",
+        "pages": null,
+        "type": null,
+        "raw_text": "recent insights into the immunopathogenesis of psoriasis provide new therapeutic opportunities j clin invest b j nickoloff f o nestle"
+      },
+      {
+        "title": "A genome-wide association study of psoriasis and psoriatic arthritis identifies new disease loci",
+        "authors": [
+          "Y Liu"
+        ],
+        "publisher": null,
+        "journal": "PLoS Genet",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "a genome-wide association study of psoriasis and psoriatic arthritis identifies new disease loci plos genet y liu"
+      },
+      {
+        "title": "Collaborative Association Study of Psoriasis (CASP); Genetic Analysis of Psoriasis Consortium; Psoriasis Association Genetics Extension; Wellcome Trust Case Control Consortium 2 (2012) Identification of 15 new psoriasis susceptibility loci highlights the role of innate immunity",
+        "authors": [
+          "L C Tsoi"
+        ],
+        "publisher": null,
+        "journal": "Nat Genet",
+        "year": null,
+        "pages": null,
+        "type": null,
+        "raw_text": "collaborative association study of psoriasis (casp); genetic analysis of psoriasis consortium; psoriasis association genetics extension; wellcome trust case control consortium 2 (2012) identification of 15 new psoriasis susceptibility loci highlights the role of innate immunity nat genet l c tsoi"
+      },
+      {
+        "title": "Wellcome Trust Case Control Consortium; Genetic Analysis of Psoriasis Consortium; I-chip for Psoriasis Consortium (2012) Conditional analysis identifies three novel major histocompatibility complex loci associated with psoriasis",
+        "authors": [
+          "J Knight"
+        ],
+        "publisher": null,
+        "journal": "Hum Mol Genet",
+        "year": null,
+        "pages": null,
+        "type": null,
+        "raw_text": "wellcome trust case control consortium; genetic analysis of psoriasis consortium; i-chip for psoriasis consortium (2012) conditional analysis identifies three novel major histocompatibility complex loci associated with psoriasis hum mol genet j knight"
+      },
+      {
+        "title": "HLA studies in psoriatic arthritis: Current situation and future needs",
+        "authors": [
+          "D D Gladman",
+          "V T Farewell"
+        ],
+        "publisher": null,
+        "journal": "J Rheumatol",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "hla studies in psoriatic arthritis: current situation and future needs j rheumatol d d gladman v t farewell"
+      }
+    ]
+  },
+  "Maternal and Fetal Factors.pdf": {
+    "title": "Maternal and Fetal Factors Associated With Mortality and Morbidity in a Multi-Racial/Ethnic Registry of Anti-SSA/Ro-Associated Cardiac Neonatal Lupus",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Peter M Izmirly",
+        "affiliation": null
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": null
+      },
+      {
+        "name": "Mimi Y Kim",
+        "affiliation": null
+      },
+      {
+        "name": "Dan Wang",
+        "affiliation": null
+      },
+      {
+        "name": "Sara K Sahl",
+        "affiliation": null
+      },
+      {
+        "name": "Carolina Llanos",
+        "affiliation": null
+      },
+      {
+        "name": "Deborah Friedman",
+        "affiliation": null
+      },
+      {
+        "name": "Jill P Buyon",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Division of Rheumatology, Department of Medicine, New York University School of Medicine, New York"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Epidemiology and Population Health, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Clinical Immunology and Rheumatology, Universidad Catolica de Chile, Santiago, Pontificia"
+      },
+      {
+        "name": null,
+        "affiliation": "Division of Pediatric Cardiology, Chile (C.L.), New York Medical College, Valhalla"
+      },
+      {
+        "name": null,
+        "affiliation": "NYU School of Medicine, TH-407, New York"
+      }
+    ],
+    "identifiers": {
+      "MD5": "21E804A4D9E90DA7AACDFBEB861B2134",
+      "DOI": "10.1161/CIRCULATIONAHA.111.033894"
+    },
+    "keywords": [],
+    "abstract": "Background-Cardiac manifestations of neonatal lupus include conduction disease and, rarely, an isolated cardiomyopathy. This study was initiated to determine the mortality and morbidity of cardiac neonatal lupus and associated risk factors in a multi-racial/ethnic US-based registry to provide insights into the pathogenesis of antibody-mediated injury and data for counseling. Three hundred twenty-five offspring exposed to maternal anti-SSA/Ro antibodies with cardiac neonatal lupus met entry criteria. Maternal, fetal echocardiographic, and neonatal risk factors were assessed for association with mortality. Fifty-seven (17.5%) died, 30% in utero. The probability of in utero death was 6%. The cumulative probability of survival at 10 years for a child born alive was 86%. Fetal echocardiographic risk factors associated with increased mortality in a multivariable analysis of all cases included hydrops and endocardial fibroelastosis. Significant predictors of in utero death were hydrops and earlier diagnosis, and of postnatal death were hydrops, endocardial fibroelastosis, and lower ventricular rate. Isolated heart block was associated with a 7.8% case fatality rate, whereas the concomitant presence of dilated cardiomyopathy or endocardial fibroelastosis quadrupled the case fatality rate. There was a significantly higher case fatality rate in minorities compared with whites, who were at a lower risk of hydrops and endocardial fibroelastosis. Pacing was required in 70%; cardiac transplantation was required in 4 children. Conclusion-Nearly one fifth of fetuses who develop cardiac neonatal lupus die of complications predicted by echocardiographic abnormalities consistent with antibody-associated disease beyond the atrioventricular node. The disparity in outcomes observed between minorities and whites warrants further investigation. (Circulation. 2011; 124:1927-1935.) Key Words: antibodies Ⅲ cardiomyopathy Ⅲ heart block Ⅲ morbidity Ⅲ mortality N eonatal lupus (NL), initially described in the late 1970s, represents a pathological readout of passively acquired autoimmunity. [1][2][3][4] Identification of advanced fetal heart block in the absence of structural abnormalities predicts the presence of maternal autoantibody responses against the ribonucleoproteins SSA/Ro and SSB/La in Ͼ85% of cases. 5 Of the affected offspring, 10% to 15% will have a lifethreatening cardiomyopathy, occasionally without associated conduction disease. 6 -9  Prospective studies of pregnancies in women with the candidate antibodies have estimated the risk of cardiac NL at Ϸ2% if the mother has had no previously affected pregnancies. 10 -13  Recurrence rates in subsequent pregnancies are approximately 8-to 9-fold this risk. 14 -19  In addition, the occurrence rate of cardiac NL after a child with cutaneous NL is Ϸ6-fold higher. 20 Maternal health status does not appear to be a contributing factor to the risk of having a child with cardiac NL, but the relationship to severity of disease has not been addressed. 14,21 Available data on estimates of the morbidity and mortality associated with cardiac NL have been derived from several groups in different countries, spanning 2 decades. 5,14,15,[22][23][24][25] These studies differ in cohort size, ranging from 55 fetuses 14 to 175 fetuses. 25 The overall case fatality rates range from 11% 22 to 29%. 5 The percentages of children receiving pacemakers vary from 63% 15 to 93%. 22 However, these studies did not uniformly require the presence of maternal anti-SSA/Ro or SSB/La antibodies as an inclusion criterion. For several studies, up to 40% of the cases included were not",
+    "headings": [
+      "Methods",
+      "Study Population",
+      "Inclusion/Exclusion Criteria",
+      "Study Design and Data Collection",
+      "Maternal Antibody Testing",
+      "Statistical Analysis",
+      "Results",
+      "Patient Demographics",
+      "Case Fatality Rate and Cause of Death",
+      "Maternal and Fetal Echocardiographic and Neonatal Risk Factors Associated With Mortality",
+      "Higher Case Fatality Rate Among Nonwhite Mothers",
+      "Morbidity Associated With Cardiac NL",
+      "Discussion",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Table 1 . Maternal Demographics",
+      "Table 2 . Cause of Cardiac Neonatal Lupus Death",
+      "Table 3 . Maternal, Fetal Echocardiographic, and Neonatal Mortality Risk Factors",
+      "Table 4 . Case Fatality Rate Among Manifestations of Cardiac Neonatal Lupus",
+      "Table 5 . Case Fatality by Race/Ethnicity"
+    ],
+    "top_references": [
+      {
+        "title": "Congenital heart block in newborns of mothers with connective tissue disease",
+        "authors": [
+          "C M Mccue",
+          "M E Mantakas",
+          "J B Tingelstad"
+        ],
+        "publisher": null,
+        "journal": "Circulation",
+        "year": "1977",
+        "pages": null,
+        "type": null,
+        "raw_text": "congenital heart block in newborns of mothers with connective tissue disease circulation c m mccue m e mantakas j b tingelstad"
+      },
+      {
+        "title": "Association of maternal systemic lupus erythematosus with congenital complete heart block",
+        "authors": [
+          "L Chameides",
+          "R C Truex",
+          "V Vetter",
+          "W J Rashkind",
+          "F M Galioto",
+          "Jr",
+          "J A Noonan"
+        ],
+        "publisher": null,
+        "journal": "N Engl J Med",
+        "year": "1977",
+        "pages": null,
+        "type": null,
+        "raw_text": "association of maternal systemic lupus erythematosus with congenital complete heart block n engl j med l chameides r c truex v vetter w j rashkind f m galioto jr j a noonan"
+      },
+      {
+        "title": "Connective-tissue disease, antibodies to ribonucleoprotein, and congenital heart block",
+        "authors": [
+          "J S Scott",
+          "P J Maddison",
+          "P V Taylor",
+          "E Esscher",
+          "O Scott",
+          "R P Skinner"
+        ],
+        "publisher": null,
+        "journal": "N Engl J Med",
+        "year": "1983",
+        "pages": null,
+        "type": null,
+        "raw_text": "connective-tissue disease, antibodies to ribonucleoprotein, and congenital heart block n engl j med j s scott p j maddison p v taylor e esscher o scott r p skinner"
+      },
+      {
+        "title": "Autoantibodies to SS-A/Ro in infants with congenital heart block",
+        "authors": [
+          "B R Reed",
+          "L A Lee",
+          "C Harmon",
+          "R Wolfe",
+          "J Wiggins",
+          "C Peebles",
+          "W L Weston"
+        ],
+        "publisher": null,
+        "journal": "J Pediatr",
+        "year": "1983",
+        "pages": null,
+        "type": null,
+        "raw_text": "autoantibodies to ss-a/ro in infants with congenital heart block j pediatr b r reed l a lee c harmon r wolfe j wiggins c peebles w l weston"
+      },
+      {
+        "title": "Prenatal diagnosis of complete atrioventricular block associated with structural heart disease: combined experience of two tertiary care centers and review of the literature",
+        "authors": [
+          "E T Jaeggi",
+          "L K Hornberger",
+          "J F Smallhorn",
+          "J C Fouron"
+        ],
+        "publisher": null,
+        "journal": "Ultrasound Obstet Gynecol",
+        "year": "2005",
+        "pages": null,
+        "type": null,
+        "raw_text": "prenatal diagnosis of complete atrioventricular block associated with structural heart disease: combined experience of two tertiary care centers and review of the literature ultrasound obstet gynecol e t jaeggi l k hornberger j f smallhorn j c fouron"
+      }
+    ]
+  },
+  "Maternal Use of Hydroxychloroquine.pdf": {
+    "title": "Maternal Use of Hydroxychloroquine Is Associated With a Reduced Risk of Recurrent Anti-SSA/Ro-Antibody-Associated Cardiac Manifestations of Neonatal Lupus",
+    "funders": [
+      "National Institute of Arthritis and Musculoskeletal and Skin Disease",
+      "Lupus Foundation of Minnesota",
+      "Pfizer",
+      "American Heart Association Founders Affiliate Clinical Research Program"
+    ],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Peter M Izmirly",
+        "affiliation": null
+      },
+      {
+        "name": "Nathalie Costedoat-Chalumeau",
+        "affiliation": null
+      },
+      {
+        "name": "Cecilia N Pisoni",
+        "affiliation": null
+      },
+      {
+        "name": "Munther A Khamashta",
+        "affiliation": null
+      },
+      {
+        "name": "Mimi Y Kim",
+        "affiliation": null
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": null
+      },
+      {
+        "name": "Deborah Friedman",
+        "affiliation": null
+      },
+      {
+        "name": "Carolina Llanos",
+        "affiliation": null
+      },
+      {
+        "name": "Jean-Charles Piette",
+        "affiliation": null
+      },
+      {
+        "name": "Jill P Buyon",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Division of Rheumatology, Department of Medicine, New York University School of Medicine, New York"
+      },
+      {
+        "name": null,
+        "affiliation": "Universite ´Paris"
+      },
+      {
+        "name": null,
+        "affiliation": "Internal Medicine Department, SLE and APS National Referral Center, Pitie ´-Salpe ˆtrie `re Hospital, Paris, France"
+      },
+      {
+        "name": null,
+        "affiliation": "Section of Rheumatology and Immunology, Centro de Educación Médica e Investigaciones Clínicas (CEMIC), J.-C.P.), Buenos Aires, Argentina"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Epidemiology and Population Health, Lupus Research Unit, King's College School of Medicine, St. Thomas' Hospital, London, UK (M.A.K."
+      },
+      {
+        "name": null,
+        "affiliation": "Division of Pediatric Cardiology, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Clinical Immunology and Rheumatology, New York Medical College, Valhalla, Pontificia"
+      },
+      {
+        "name": null,
+        "affiliation": "Universidad Catolica de Chile, Santiago, Chile"
+      },
+      {
+        "name": null,
+        "affiliation": "NYU School of Medicine, TH-407, New York"
+      }
+    ],
+    "identifiers": {
+      "MD5": "C65B73D4B6E405BDA0C5CCAC09641730",
+      "DOI": "10.1161/CIRCULATIONAHA.111.089268"
+    },
+    "keywords": [],
+    "abstract": "Background-A recent case-control study suggested a benefit of hydroxychloroquine (HCQ) in lowering the risk of cardiac manifestations of neonatal lupus (cardiac-NL) in pregnancies of anti-SSA/Ro-positive patients with systemic lupus erythematosus. A historical cohort assembled from 3 international databases was used to evaluate whether HCQ reduces the nearly 10-fold increase in risk of recurrence of cardiac-NL independently of maternal health status. Methods and Results-Two hundred fifty-seven pregnancies of anti-SSA/Ro-positive mothers (40 exposed and 217 unexposed to HCQ) subsequent to the birth of a child with cardiac-NL were identified from 3 databases (United States, England, and France). Exposure was defined as the sustained use of HCQ throughout pregnancy with initiation before 10 weeks of gestation. The recurrence rate of cardiac-NL in fetuses exposed to HCQ was 7.5% (3 of 40) compared with 21.2% (46 of 217) in the unexposed group (Pϭ0.050). Although there were no deaths in the exposed group, the overall case fatality rate of the cardiac-NL fetuses in the unexposed group was 21.7%. In a multivariable analysis that adjusted for database source, maternal race/ethnicity, and anti-SSB/La status, HCQ use remained significantly associated with a decreased risk of cardiac-NL (odds ratio, 0.23; 95% confidence interval, 0.06 -0.92; Pϭ0.037). Similar results were obtained with propensity score analysis, an alternative approach to adjust for possible confounding by indication. Conclusion-Aggregate data from a multinational effort show that in mothers at high risk of having a child with cardiac-NL, the use of HCQ may protect against recurrence of disease in a subsequent pregnancy. (Circulation. 2012; 126:76-82.",
+    "headings": [
+      "Clinical Perspective on p 82",
+      "Methods",
+      "Study Population",
+      "Inclusion Criteria",
+      "Study Design, Outcome Measure, and Data Collection",
+      "Statistical Analysis",
+      "Results",
+      "Patient Demographics, Maternal Autoantibody Status, and Medication Use",
+      "Evaluation of HCQ and Other Predictors in the Reduction of Recurrent Cardiac-NL",
+      "Multivariable and Propensity Analyses",
+      "Discussion",
+      "Conclusions",
+      "Table 1 . Clinical and Demographic Characteristics",
+      "Table 2 . Outcome of Children",
+      "Table 3 . Unadjusted and Adjusted Odds Ratios for Risk Factors of Recurrent Cardiac Manifestations of Neonatal Lupus"
+    ],
+    "top_references": [
+      {
+        "title": "Maternal and fetal factors associated with mortality and morbidity in a multi-racial/ethnic registry of anti-SSA/Ro associated cardiac neonatal lupus",
+        "authors": [
+          "P M Izmirly",
+          "A Saxena",
+          "M Y Kim",
+          "D Wang",
+          "S K Sahl",
+          "C Llanos",
+          "D Friedman",
+          "J P Buyon"
+        ],
+        "publisher": null,
+        "journal": "Circulation",
+        "year": "2011",
+        "pages": null,
+        "type": null,
+        "raw_text": "maternal and fetal factors associated with mortality and morbidity in a multi-racial/ethnic registry of anti-ssa/ro associated cardiac neonatal lupus circulation p m izmirly a saxena m y kim d wang s k sahl c llanos d friedman j p buyon"
+      },
+      {
+        "title": "Risk of congenital complete heart block in newborns of mothers with anti-Ro/SSA antibodies detected by counterimmunoelectrophoresis: a prospective study of 100 Women",
+        "authors": [
+          "A Brucato",
+          "M Frassi",
+          "F Franceschini",
+          "R Cimaz",
+          "D Faden",
+          "M P Pisoni",
+          "` M Muscara",
+          "G Vignati",
+          "M Stramba-Badiale",
+          "L Catelli",
+          "A Lojacono",
+          "I Cavazzana",
+          "A Ghirardello",
+          "F Vescovi",
+          "P F Gambari",
+          "Doria A Meroni",
+          "P L Tincani",
+          "A"
+        ],
+        "publisher": null,
+        "journal": "Arthritis Rheum",
+        "year": "2001",
+        "pages": null,
+        "type": null,
+        "raw_text": "risk of congenital complete heart block in newborns of mothers with anti-ro/ssa antibodies detected by counterimmunoelectrophoresis: a prospective study of 100 women arthritis rheum a brucato m frassi f franceschini r cimaz d faden m p pisoni ` m muscara g vignati m stramba-badiale l catelli a lojacono i cavazzana a ghirardello f vescovi p f gambari doria a meroni p l tincani a"
+      },
+      {
+        "title": "Incidence and spectrum of neonatal lupus erythematosus: a prospective study of infants born to mothers with anti-Ro autoantibodies",
+        "authors": [
+          "R Cimaz",
+          "D L Spence",
+          "L Hornberger",
+          "E D Silverman"
+        ],
+        "publisher": null,
+        "journal": "J Pediatr",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "incidence and spectrum of neonatal lupus erythematosus: a prospective study of infants born to mothers with anti-ro autoantibodies j pediatr r cimaz d l spence l hornberger e d silverman"
+      },
+      {
+        "title": "Outcome of pregnancies in patients with anti-SSA/Ro antibodies: a study of 165 pregnancies, with special focus on electrocardiographic variations in the children and comparison with a control group",
+        "authors": [
+          "N Costedoat-Chalumeau",
+          "Z Amoura",
+          "J M Lupoglazoff",
+          "D L Huong",
+          "I Denjoy",
+          "D Vauthier",
+          "D Sebbouh",
+          "O Fain",
+          "S Georgin-Lavialle",
+          "P Ghillani",
+          "L Musset",
+          "B Wechsler",
+          "P Duhaut",
+          "J C Piette"
+        ],
+        "publisher": null,
+        "journal": "Arthritis Rheum",
+        "year": "2004",
+        "pages": null,
+        "type": null,
+        "raw_text": "outcome of pregnancies in patients with anti-ssa/ro antibodies: a study of 165 pregnancies, with special focus on electrocardiographic variations in the children and comparison with a control group arthritis rheum n costedoat-chalumeau z amoura j m lupoglazoff d l huong i denjoy d vauthier d sebbouh o fain s georgin-lavialle p ghillani l musset b wechsler p duhaut j c piette"
+      },
+      {
+        "title": "Autoimmune-associated congenital heart block: mortality, morbidity, and recurrence rates obtained from a national neonatal lupus registry",
+        "authors": [
+          "J P Buyon",
+          "R Hiebert",
+          "J Copel",
+          "J Craft",
+          "D Friedman",
+          "M Katholi",
+          "L A Lee",
+          "T T Provost",
+          "M Reichlin",
+          "L Rider",
+          "A Rupel",
+          "S Saleeb",
+          "W L Weston",
+          "M L Skovron"
+        ],
+        "publisher": null,
+        "journal": "J Am Coll Cardiol",
+        "year": "1998",
+        "pages": null,
+        "type": null,
+        "raw_text": "autoimmune-associated congenital heart block: mortality, morbidity, and recurrence rates obtained from a national neonatal lupus registry j am coll cardiol j p buyon r hiebert j copel j craft d friedman m katholi l a lee t t provost m reichlin l rider a rupel s saleeb w l weston m l skovron"
+      }
+    ]
+  },
+  "Moisture barrier properties.pdf": {
+    "title": "Moisture barrier properties of xylan composite films",
+    "funders": [
+      "Gunnar Nicholson Foundation",
+      "School of Chemistry and Biochemistry",
+      "IPST"
+    ],
+    "publisher": null,
+    "pub_date": "2011-01-28",
+    "authors": [
+      {
+        "name": "Amit Saxena",
+        "affiliation": "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, USA"
+      },
+      {
+        "name": "Thomas J Elder",
+        "affiliation": "USDA-Forest Service, Southern Research Station, Pineville, USA"
+      },
+      {
+        "name": "Arthur J Ragauskas",
+        "affiliation": "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, USA"
+      }
+    ],
+    "identifiers": {
+      "MD5": "93C6C548F752E936ED0C1CD11EE96276",
+      "DOI": "10.1016/j.carbpol.2011.01.039"
+    },
+    "keywords": [],
+    "abstract": "Moisture barrier properties of films based on xylan reinforced with several cellulosic resources including nanocrystalline cellulose, acacia bleached kraft pulp fibers and softwood kraft fibers have been evaluated. Measurements of water vapor transmission rate (WVTR) were performed by a modification of the wet cup method described by ASTM E 96-95, indicating that membranes with 10% nanocrystalline cellulose, prepared using a sulfuric acid, exhibited the lowest permeability value of 174 g mil/h m 2 among the composite films studied. Both the acacia and the softwood kraft pulp fibers when used for xylan film formation exhibited higher water vapor transmission rates at addition levels of 50% and no improvement at lower levels of 5% and 10%, in comparison to control xylan films. Reinforcement of xylan with hydrochloric acid made nanocrystalline cellulose yielded films that showed a reduction in water transmission but the reduction was not as significant as with the reinforcement of xylan with sulfuric nanocrystalline cellulose. The results showed that xylan films reinforced with 10% sulfuric nanocrystalline cellulose exhibited reductions in water transmission rates of 362%, 62% and 61% over films prepared with 10% softwood kraft fibers, 10% acacia fiber and 10% hydrochloric acid prepared nanocrystalline cellulose, respectively. The morphology of the resulting nanocomposite films was examined by SEM and AFM which showed that control films containing xylan and sorbitol had a more open structure as compared to xylan-sorbitol films containing sulfuric nanocrystalline cellulose. The results from FT-IR suggested strong interactions occurred between the nanocrystalline cellulose and the matrix.",
+    "headings": [
+      "Introduction",
+      "Experimental",
+      "Materials",
+      "Preparation of sulfuric nanocrystalline cellulose",
+      "Preparation of hydrochloride nanocrystalline cellulose",
+      "Preparation of xylan nanocomposite film",
+      "Water vapor transmission rate (WVTR)",
+      "Optical microscopy analysis",
+      "Electron microscopy",
+      "Atomic force microscopy",
+      "Fourier transform infrared spectroscopy (FT-IR)",
+      "Results and discussion",
+      "Conclusions",
+      "Fig. 2 .Fig. 3 .Fig. 4 .",
+      "Fig. 5 .",
+      "Fig. 6 .",
+      "Fig. 7 .Fig. 8 .",
+      "Fig. 9 .",
+      "Table 1"
+    ],
+    "top_references": [
+      {
+        "title": "Characterization of the crystalline structure of cellulose using static and dynamic FT-IR spectroscopy",
+        "authors": [
+          "M Akeholm",
+          "B Hinterstoisser",
+          "L Salmen"
+        ],
+        "publisher": null,
+        "journal": "Carbohydrate Research",
+        "year": "2004",
+        "pages": null,
+        "type": null,
+        "raw_text": "characterization of the crystalline structure of cellulose using static and dynamic ft-ir spectroscopy carbohydrate research m akeholm b hinterstoisser l salmen"
+      },
+      {
+        "title": "Flow properties of microcrystalline cellulose suspension prepared by acid treatment of native cellulose",
+        "authors": [
+          "J Araki",
+          "M Wada",
+          "S Kuga",
+          "T Okano"
+        ],
+        "publisher": null,
+        "journal": "Colloids Surfaces A",
+        "year": "1998",
+        "pages": null,
+        "type": null,
+        "raw_text": "flow properties of microcrystalline cellulose suspension prepared by acid treatment of native cellulose colloids surfaces a j araki m wada s kuga t okano"
+      },
+      {
+        "title": "Water sorption and water vapour permeability properties of polysaccharide (locust bean gum) based edible films",
+        "authors": [
+          "M Aydinli",
+          "M Tutas"
+        ],
+        "publisher": null,
+        "journal": "Food Science and Technology",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "water sorption and water vapour permeability properties of polysaccharide (locust bean gum) based edible films food science and technology m aydinli m tutas"
+      },
+      {
+        "title": "Hemicellulose and hemicellulases",
+        "authors": [],
+        "publisher": "Portland Press Ltd",
+        "journal": "Hemicellulose and hemicellulases",
+        "year": "1993",
+        "pages": null,
+        "type": null,
+        "raw_text": "hemicellulose and hemicellulases hemicellulose and hemicellulases portland press ltd"
+      },
+      {
+        "title": "On the interactions between cellulose and xylan, a biometric simulation of the hardwood cell wall",
+        "authors": [
+          "S Dammström",
+          "L Salmén",
+          "P Gatenholm"
+        ],
+        "publisher": null,
+        "journal": "Bioresources",
+        "year": "2009",
+        "pages": null,
+        "type": null,
+        "raw_text": "on the interactions between cellulose and xylan, a biometric simulation of the hardwood cell wall bioresources s dammström l salmén p gatenholm"
+      }
+    ]
+  },
+  "Myelin-specific.pdf": {
+    "title": "Myelin-specific T cells also recognize neuronal autoantigen in a transgenic mouse model of multiple sclerosis",
+    "funders": [
+      "unknown",
+      "National Multiple Sclerosis Society of New York",
+      "Israel Science Foundation",
+      "EU",
+      "Max Planck Society",
+      "Deutsche Forschungsgemeinschaft (Sonderforschungsbereiche (SFB)"
+    ],
+    "publisher": null,
+    "pub_date": "2009-05-31",
+    "authors": [
+      {
+        "name": "Gurumoorthy Krishnamoorthy",
+        "affiliation": "Department of Neuroimmunology, Max Planck Institute of Neurobiology, Martinsried, Germany"
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563"
+      },
+      {
+        "name": "Lennart T Mars",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563"
+      },
+      {
+        "name": "Helena S Domingues",
+        "affiliation": "Department of Neuroimmunology, Max Planck Institute of Neurobiology, Martinsried, Germany"
+      },
+      {
+        "name": "Reinhard Mentele",
+        "affiliation": "Institute of Clinical Neuroimmunology, University Hospital Grosshadern, Ludwig-Maximilians University, Munich, Germany"
+      },
+      {
+        "name": "Avraham Ben-Nun",
+        "affiliation": "Department of Immunology, The Weizmann Institute of Science, Rehovot, Israel"
+      },
+      {
+        "name": "Hans Lassmann",
+        "affiliation": "Center for Brain Research, Medical University of Vienna, Vienna, Austria"
+      },
+      {
+        "name": "Klaus Dornmair",
+        "affiliation": "Department of Neuroimmunology, Max Planck Institute of Neurobiology, Martinsried, Germany"
+      },
+      {
+        "name": "Florian C Kurschus",
+        "affiliation": "Department of Neuroimmunology, Max Planck Institute of Neurobiology, Martinsried, Germany"
+      },
+      {
+        "name": "Roland S Liblau",
+        "affiliation": "Institut National de la Sante ´et de la Recherche Me ´dicale, Unite ´563"
+      },
+      {
+        "name": "Hartmut Wekerle",
+        "affiliation": "Department of Neuroimmunology, Max Planck Institute of Neurobiology, Martinsried, Germany"
+      },
+      {
+        "name": null,
+        "affiliation": "I. Medizinische Klinik und Poliklinik, Johannes Gutenberg Universita ¨t, Mainz, Germany"
+      }
+    ],
+    "identifiers": {
+      "MD5": "55998FC2AEB83E6F1AD1BD7A2D07F86C",
+      "DOI": "10.1038/nm.1975"
+    },
+    "keywords": [],
+    "abstract": "We describe here the paradoxical development of spontaneous experimental autoimmune encephalomyelitis (EAE) in transgenic mice expressing a myelin oligodendrocyte glycoprotein (MOG)-specific T cell antigen receptor (TCR) in the absence of MOG. We report that in Mog-deficient mice (Mog -/-), the autoimmune response by transgenic T cells is redirected to a neuronal cytoskeletal self antigen, neurofilament-M (NF-M). Although components of radically different protein classes, the cross-reacting major histocompatibility complex I-A b -restricted epitope sequences of MOG 35-55 and NF-M 18-30 share essential TCR contact positions. This pattern of cross-reaction is not specific to the transgenic TCR but is also commonly seen in MOG 35-55 -I-A b -reactive T cells. We propose that in the C57BL/6 mouse, MOG and NF-M response components add up to overcome the general resistance of this strain to experimental induction of autoimmunity. Similar cumulative responses against more than one autoantigen may have a role in spontaneously developing human autoimmune diseases.",
+    "headings": [
+      "RESULTS",
+      "Spontaneous EAE in the absence of MOG",
+      "2D2-transgenic T cells recognize a non-MOG CNS autoantigen",
+      "NF-M peptide cross-reacts with MOG-specific T cells",
+      "In vivo recognition of NF-M by MOG-specific T cells",
+      "DISCUSSION",
+      "A R T I C L E S",
+      "METHODS",
+      "Figure 1",
+      "Figure 2",
+      "3 HFigure 3",
+      "Figure 4 Figure 5",
+      "Figure 6"
+    ],
+    "top_references": [
+      {
+        "title": "Repertoire dynamics of autoreactive T cells in multiple sclerosis patients and healthy subjects",
+        "authors": [
+          "N Goebels"
+        ],
+        "publisher": null,
+        "journal": "Brain",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "repertoire dynamics of autoreactive t cells in multiple sclerosis patients and healthy subjects brain n goebels"
+      },
+      {
+        "title": "Breaking ignorance: the case of the brain",
+        "authors": [
+          "H Wekerle",
+          "A Radbruch",
+          "P E Lipsky"
+        ],
+        "publisher": "Springer",
+        "journal": "Current Concepts in Autoimmunity and Chronic Inflammation",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "breaking ignorance: the case of the brain current concepts in autoimmunity and chronic inflammation springer h wekerle a radbruch p e lipsky"
+      },
+      {
+        "title": "Myelin oligodendrocyte glycoprotein-specific T cell receptor transgenic mice develop spontaneous autoimmune optic neuritis",
+        "authors": [
+          "E Bettelli"
+        ],
+        "publisher": null,
+        "journal": "J. Exp. Med",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "myelin oligodendrocyte glycoprotein-specific t cell receptor transgenic mice develop spontaneous autoimmune optic neuritis j. exp. med e bettelli"
+      },
+      {
+        "title": "B lymphocytes producing demyelinating autoantibodies: development and function in gene-targeted transgenic mice",
+        "authors": [
+          "T Litzenburger"
+        ],
+        "publisher": null,
+        "journal": "J. Exp. Med",
+        "year": "1998",
+        "pages": null,
+        "type": null,
+        "raw_text": "b lymphocytes producing demyelinating autoantibodies: development and function in gene-targeted transgenic mice j. exp. med t litzenburger"
+      },
+      {
+        "title": "Myelin/oligodendrocyte glycoprotein-deficient (MOG-deficient) mice reveal lack of immune tolerance to MOG in wild-type mice",
+        "authors": [
+          "C Delarasse"
+        ],
+        "publisher": null,
+        "journal": "J. Clin. Invest",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "myelin/oligodendrocyte glycoprotein-deficient (mog-deficient) mice reveal lack of immune tolerance to mog in wild-type mice j. clin. invest c delarasse"
+      }
+    ]
+  },
+  "Opposing Actions of Fibroblast.pdf": {
+    "title": "Opposing Actions of Fibroblast and Cardiomyocyte Smad3 Signaling in the Infarcted Myocardium",
+    "funders": [
+      "US Department of Defense",
+      "unknown",
+      "National Institutes of Health"
+    ],
+    "publisher": null,
+    "pub_date": "2018-02-13",
+    "authors": [
+      {
+        "name": "Ping Kong",
+        "affiliation": null
+      },
+      {
+        "name": "Arti V Shinde",
+        "affiliation": null
+      },
+      {
+        "name": "Ya Su",
+        "affiliation": null
+      },
+      {
+        "name": "Ilaria Russo",
+        "affiliation": null
+      },
+      {
+        "name": "Bijun Chen",
+        "affiliation": null
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": null
+      },
+      {
+        "name": "Simon J Conway",
+        "affiliation": null
+      },
+      {
+        "name": "Jonathan M Graff",
+        "affiliation": null
+      },
+      {
+        "name": "Nikolaos G Frangogiannis",
+        "affiliation": null
+      },
+      {
+        "name": "Stephane Heymans",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Medicine (Cardiology), Albert Einstein College of Medicine, 1300 Morris Park Ave, Forchheimer G46B, Bronx"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Medicine (Cardiology), Albert Einstein College of Medicine, Wilf Family Cardiovascular Research In-stitute, Bronx"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Pediatrics, N.G.F, Indiana University, Indianapolis"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Developmental Biology, University of Texas"
+      }
+    ],
+    "identifiers": {
+      "MD5": "E95C839FE0B34C2DB2108945C642B91E",
+      "DOI": "10.1161/CIRCULATIONAHA.117.029622"
+    },
+    "keywords": [],
+    "abstract": "Transforming growth factor-βs regulate a wide range of cellular responses by activating Smad-dependent and Smad-independent cascades. In the infarcted heart, Smad3 signaling is activated in both cardiomyocytes and interstitial cells. We hypothesized that cell-specific actions of Smad3 regulate repair and remodeling in the infarcted myocardium. To dissect cell-specific Smad3 actions in myocardial infarction, we generated mice with Smad3 loss in activated fibroblasts or cardiomyocytes. Cardiac function was assessed after reperfused or nonreperfused infarction using echocardiography. The effects of cell-specific Smad3 loss on the infarcted heart were studied using histological studies, assessment of protein, and gene expression levels. In vitro, we studied Smad-dependent and Smadindependent actions in isolated cardiac fibroblasts. Mice with fibroblast-specific Smad3 loss had accentuated adverse remodeling after reperfused infarction and exhibited an increased incidence of late rupture after nonreperfused infarction. The consequences of fibroblast-specific Smad3 loss were not a result of effects on acute infarct size but were associated with unrestrained fibroblast proliferation, impaired scar remodeling, reduced fibroblast-derived collagen synthesis, and perturbed alignment of myofibroblast arrays in the infarct. Polarized light microscopy in Sirius red-stained sections demonstrated that the changes in fibroblast morphology were associated with perturbed organization of the collagenous matrix in the infarcted area. In contrast, α-smooth muscle actin expression by infarct myofibroblasts was not affected by Smad3 loss. Smad3 critically regulated fibroblast function, activating integrin-mediated nicotinamide adenine dinucleotide phosphate (NADPH) oxidase-2 (NOX-2) expression. Smad3 loss in cardiomyocytes attenuated remodeling and dysfunction after infarction. Cardiomyocyte-specific Smad3 loss did not affect acute infarct size but was associated with attenuated cardiomyocyte apoptosis in the remodeling myocardium, accompanied by decreased myocardial NOX-2 levels, reduced nitrosative stress, and lower matrix metalloproteinase-2 expression. In healing myocardial infarction, myofibroblast-and cardiomyocyte-specific activation of Smad3 has contrasting functional outcomes that may involve activation of an integrin/reactive oxygen axis.",
+    "headings": [
+      "METHODS",
+      "Generation of Mice With Myofibroblast and Cardiomyocyte-Specific Smad3 Loss",
+      "Clinical Perspective",
+      "Immunohistochemistry and Histology",
+      "Isolation and Culture of Cardiac Fibroblasts",
+      "Isolation of Fibroblasts and Myeloid Cells From Infarcted Hearts",
+      "Statistical Analysis",
+      "RESULTS",
+      "FS3KO Mice Have Normal Baseline Cardiac Geometry and Function",
+      "Fibroblast-Specific Smad3 Loss Does Not Affect Acute Infarct Size But Is Associated With Larger Scars, Increased Myofibroblast Density, and Accentuated Myofibroblast Proliferation",
+      "Effects of Fibroblast-Specific Smad3 Loss on Collagen Deposition in the Infarcted and Remodeling Myocardium",
+      "Smad3 Loss Impairs Contraction of Fibroblast-Populated Collagen Pads",
+      "ORIGINAL RESEARCH ARTICLE",
+      "Effects of Fibroblast-Specific Smad3 Loss on Synthesis of α-SMA and Extracellular Matrix Proteins",
+      "Fibroblast-Specific Smad3 Loss Perturbs Scar Organization",
+      "Smad3 Mediates α2, α5, and β3 Integrin Expression in Cardiac Fibroblasts",
+      "α2 and α5 Integrin Mediate Contraction in Fibroblast-Populated Pads",
+      "Smad3-Mediated Integrin Activation Induces NOX2 Transcription in Cardiac Fibroblasts",
+      "Integrin α5 Is Not Sufficient for Contraction of Fibroblast-Populated Collagen Pads",
+      "Cardiomyocyte-Specific Smad3 Loss Attenuates Adverse Remodeling After Myocardial Infarction",
+      "Effects of Cardiomyocyte-Specific Smad3 Loss on Cardiomyocyte Apoptosis After Myocardial Infarction",
+      "CMS3KO Mice Have Reduced NOX2 Expression and Attenuated Nitrosative Stress in the Remodeling Myocardium",
+      "CMS3KO Mice Have Reduced MMP2 Levels in the Infarct and in the Noninfarcted Remodeling Myocardium",
+      "DISCUSSION",
+      "Myofibroblast Activation in Repair and Remodeling of the Infarcted Heart",
+      "Fibroblast-Specific Smad3 Signaling",
+      "Cardiomyocyte Smad3 Signaling Accentuates Cardiac Remodeling",
+      "Targeting the TGF-β/Smad System in Cardiac Remodeling",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Figure 3 .Figure 4 .",
+      "Figure 4 Figure 5 .",
+      "Figure 5",
+      "Figure 6 .",
+      "Figure 6",
+      "Figure 7 .Figure 8 .",
+      "Figure 8",
+      "Figure 9 .",
+      "Smad3 Loss in Activated Fibroblasts Accentuates Dilative Remodeling in Both Reperfused and Nonreperfused Myocardial Infarction"
+    ],
+    "top_references": [
+      {
+        "title": "Changes in extracellular matrix and in transforming growth factor beta isoforms after coronary artery ligation in rats",
+        "authors": [
+          "A Deten",
+          "A Hölzl",
+          "M Leicht",
+          "W Barth",
+          "H G Zimmer"
+        ],
+        "publisher": null,
+        "journal": "J Mol Cell Cardiol",
+        "year": "2001",
+        "pages": null,
+        "type": null,
+        "raw_text": "changes in extracellular matrix and in transforming growth factor beta isoforms after coronary artery ligation in rats j mol cell cardiol a deten a hölzl m leicht w barth h g zimmer"
+      },
+      {
+        "title": "Of mice and dogs: species-specific differences in the inflammatory response following myocardial infarction",
+        "authors": [
+          "O Dewald",
+          "G Ren",
+          "G D Duerr",
+          "M Zoerlein",
+          "C Klemm",
+          "C Gersch",
+          "S Tincey",
+          "L H Michael",
+          "M L Entman",
+          "N G Frangogiannis"
+        ],
+        "publisher": null,
+        "journal": "Am J Pathol",
+        "year": "2004",
+        "pages": null,
+        "type": null,
+        "raw_text": "of mice and dogs: species-specific differences in the inflammatory response following myocardial infarction am j pathol o dewald g ren g d duerr m zoerlein c klemm c gersch s tincey l h michael m l entman n g frangogiannis"
+      },
+      {
+        "title": "Elevation of expression of Smads 2, 3, and 4, decorin and TGF-beta in the chronic phase of myocardial infarct scar healing",
+        "authors": [
+          "J Hao",
+          "H Ju",
+          "S Zhao",
+          "A Junaid",
+          "Scammell-La Fleur",
+          "T Dixon",
+          "I M"
+        ],
+        "publisher": null,
+        "journal": "J Mol Cell Cardiol",
+        "year": "1999",
+        "pages": null,
+        "type": null,
+        "raw_text": "elevation of expression of smads 2, 3, and 4, decorin and tgf-beta in the chronic phase of myocardial infarct scar healing j mol cell cardiol j hao h ju s zhao a junaid scammell-la fleur t dixon i m"
+      },
+      {
+        "title": "Essential role of Smad3 in infarct healing and in the pathogenesis of cardiac remodeling",
+        "authors": [
+          "M Bujak",
+          "G Ren",
+          "H J Kweon",
+          "M Dobaczewski",
+          "A Reddy",
+          "G Taffet",
+          "X F Wang",
+          "N G Frangogiannis"
+        ],
+        "publisher": null,
+        "journal": "Circulation",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "essential role of smad3 in infarct healing and in the pathogenesis of cardiac remodeling circulation m bujak g ren h j kweon m dobaczewski a reddy g taffet x f wang n g frangogiannis"
+      },
+      {
+        "title": "Smad3 signaling critically regulates fibroblast phenotype and function in healing myocardial infarction",
+        "authors": [
+          "M Dobaczewski",
+          "M Bujak",
+          "N Li",
+          "C Gonzalez-Quesada",
+          "L H Mendoza",
+          "X F Wang",
+          "N G Frangogiannis"
+        ],
+        "publisher": null,
+        "journal": "Circ Res",
+        "year": "2010",
+        "pages": null,
+        "type": null,
+        "raw_text": "smad3 signaling critically regulates fibroblast phenotype and function in healing myocardial infarction circ res m dobaczewski m bujak n li c gonzalez-quesada l h mendoza x f wang n g frangogiannis"
+      }
+    ]
+  },
+  "Phase.pdf": {
+    "title": "Phase III/IV, Randomized, Fifty-Two-Week Study of the Efficacy and Safety of Belimumab in Patients of Black African Ancestry With Systemic Lupus Erythematosus",
+    "funders": [
+      "GlaxoSmithKline"
+    ],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Ellen Ginzler",
+        "affiliation": "Ellen Ginzler, MPH: State University of New York (SUNY) Downstate Health Sciences University, New York"
+      },
+      {
+        "name": "Luiz Sergio Guedes Barbosa",
+        "affiliation": "Núcleo de Terapia Especializada em Cancerologia (NUTEC), Luiz Sergio Guedes Barbosa, Cuiaba, Brazil"
+      },
+      {
+        "name": "David D'cruz",
+        "affiliation": "David D'Cruz, MD: Guy's Hospital, London, UK"
+      },
+      {
+        "name": "Richard Furie",
+        "affiliation": "MD: North-well Health, Richard Furie, Great Neck, New York"
+      },
+      {
+        "name": "Kathleen Maksimowicz-Mckinnon",
+        "affiliation": "Kathleen Maksimowicz-McKinnon"
+      },
+      {
+        "name": "James Oates",
+        "affiliation": null
+      },
+      {
+        "name": "Mittermayer Barreto Santiago",
+        "affiliation": null
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": "Amit Saxena"
+      },
+      {
+        "name": "Saira Sheikh",
+        "affiliation": "Saira Sheikh, University of North Carolina, Chapel Hill; 10"
+      },
+      {
+        "name": "Damon L Bass",
+        "affiliation": null
+      },
+      {
+        "name": "Susan W Burriss",
+        "affiliation": null
+      },
+      {
+        "name": "Jennifer A Gilbride",
+        "affiliation": "Jennifer A. Gilbride, MSc: GlaxoSmithKline, Stevenage, UK"
+      },
+      {
+        "name": "James G Groark",
+        "affiliation": null
+      },
+      {
+        "name": "Michelle Miller",
+        "affiliation": null
+      },
+      {
+        "name": "Amy Pierce",
+        "affiliation": "Amy Pierce, BS: ViiV Healthcare, Research Triangle"
+      },
+      {
+        "name": "David A Roth",
+        "affiliation": null
+      },
+      {
+        "name": "Beulah Ji",
+        "affiliation": null
+      },
+      {
+        "name": ": Glaxosmithkline",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Collegeville"
+      },
+      {
+        "name": null,
+        "affiliation": "1250 South Collegeville Road, Collegeville"
+      }
+    ],
+    "identifiers": {
+      "MD5": "F8D77ACE1A9376B726210A1B9A181CCB",
+      "DOI": "10.1002/art.41900"
+    },
+    "keywords": [],
+    "abstract": "Objective. Enrollment of patients of Black African ancestry with systemic lupus erythematosus (SLE) in phase II and phase III of the belimumab trials was not reflective of the racial distribution observed in the lupus population. This study was undertaken to assess the efficacy and safety of intravenous (IV) belimumab plus standard therapy in patients of self-identified Black race. Methods. EMBRACE (GSK Study BEL115471; ClinicalTrials.gov identifier: NCT01632241) was a 52-week multicenter, double-blind, placebo-controlled trial in adults of self-identified Black race with active SLE who received monthly belimumab 10 mg/kg IV, or placebo, plus standard therapy. The optional 26-week open-label extension phase included patients who completed the double-blind phase. The primary end point of the study was SLE Responder Index (SRI) response rate at week 52 with modified proteinuria scoring adapted from the SLE Disease Activity Index 2000 (SLEDAI-2K) (SRI-SLEDAI-2K). Key secondary end points included SRI response rate at week 52, time to first severe SLE flare, and reductions in prednisone dose. Results. The modified intent-to-treat population comprised 448 patients, of whom 96.9% were women and the mean AE SD age was 38.8 AE 11.42 years. The primary end point (improvement in the SRI-SLEDAI-2K response rate at week 52) was not achieved (belimumab 48.7%, placebo 41.6%; odds ratio 1.40 [95% confidence interval 0.93, 2.11], P = 0.1068); however, numerical improvements favoring belimumab were observed, in which the SRI-SLEDAI-2K response rates were higher in those who received belimumab compared with those who received placebo, especially in patients with SLE who had high disease activity or renal manifestations at baseline. The safety profile of belimumab was generally consistent with that observed in previous SLE trials. Adverse events were the primary reasons for double-blind phase withdrawals (belimumab 5.4%, placebo 6.7%). Conclusion. The primary end point of this study was not achieved, but improvement with belimumab versus placebo was observed, suggesting that belimumab remains a suitable treatment option for SLE management in patients of Black African ancestry. ClinicalTrials.gov identifier: NCT01632241.",
+    "headings": [
+      "INTRODUCTION",
+      "PATIENTS AND METHODS",
+      "RESULTS",
+      "DISCUSSION",
+      "Figure 2 .",
+      "Figure",
+      "Figure 3 .",
+      "Figure 4 .",
+      "n=67, 22.4%) most commonly due to",
+      "n=36, 24.2%) most commonly due to:",
+      "Table 1 .",
+      "label extension phase Week 24 Patients with response vs OLE baseline (%) *",
+      "belimumab 10 mg/kg IV vs placebo 10",
+      "Table 2 ."
+    ],
+    "top_references": [
+      {
+        "title": "Innate immune cells' contribution to systemic lupus erythematosus [review]",
+        "authors": [
+          "A A Herrada",
+          "N Escobedo",
+          "M Iruretagoyena",
+          "R A Valenzuela",
+          "P I Burgos",
+          "L Cuitino"
+        ],
+        "publisher": null,
+        "journal": "Front Immunol",
+        "year": "2019",
+        "pages": null,
+        "type": null,
+        "raw_text": "innate immune cells' contribution to systemic lupus erythematosus [review] front immunol a a herrada n escobedo m iruretagoyena r a valenzuela p i burgos l cuitino"
+      },
+      {
+        "title": "Lupus nephritis: current treatment paradigm and unmet needs [review]",
+        "authors": [
+          "S P Menez",
+          "El Essawy",
+          "B Atta",
+          "M G"
+        ],
+        "publisher": null,
+        "journal": "Rev Recent Clin Trials",
+        "year": "2018",
+        "pages": null,
+        "type": null,
+        "raw_text": "lupus nephritis: current treatment paradigm and unmet needs [review] rev recent clin trials s p menez el essawy b atta m g"
+      },
+      {
+        "title": "Epidemiology of systemic lupus erythematosus: an update [review]",
+        "authors": [
+          "G Stojan",
+          "M Petri"
+        ],
+        "publisher": null,
+        "journal": "Curr Opin Rheumatol",
+        "year": "2018",
+        "pages": null,
+        "type": null,
+        "raw_text": "epidemiology of systemic lupus erythematosus: an update [review] curr opin rheumatol g stojan m petri"
+      },
+      {
+        "title": "Race/ethnicity and cardiovascular events among patients with systemic lupus erythematosus",
+        "authors": [
+          "M Barbhaiya",
+          "C H Feldman",
+          "H Guan",
+          "G Omez-Puerta",
+          "J A Fischer",
+          "M A Solomon",
+          "D H"
+        ],
+        "publisher": null,
+        "journal": "Arthritis Rheumatol",
+        "year": "2017",
+        "pages": null,
+        "type": null,
+        "raw_text": "race/ethnicity and cardiovascular events among patients with systemic lupus erythematosus arthritis rheumatol m barbhaiya c h feldman h guan g omez-puerta j a fischer m a solomon d h"
+      },
+      {
+        "title": "The effect of ethnicity and genetic ancestry on the epidemiology, clinical features and outcome of systemic lupus erythematosus [review]",
+        "authors": [
+          "M J Lewis",
+          "A S Jawad"
+        ],
+        "publisher": null,
+        "journal": "Rheumatology (Oxford)",
+        "year": "2017",
+        "pages": null,
+        "type": null,
+        "raw_text": "the effect of ethnicity and genetic ancestry on the epidemiology, clinical features and outcome of systemic lupus erythematosus [review] rheumatology (oxford) m j lewis a s jawad"
+      }
+    ]
+  },
+  "Removal of Dyes Using.pdf": {
+    "title": "Removal of Dyes Using Graphene-Based Composites: a Review",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Ishani Khurana",
+        "affiliation": null
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": null
+      },
+      {
+        "name": "Jitender M Bharti",
+        "affiliation": null
+      },
+      {
+        "name": "Khurana",
+        "affiliation": null
+      },
+      {
+        "name": "Kumar Pramod",
+        "affiliation": null
+      },
+      {
+        "name": "Rai",
+        "affiliation": null
+      },
+      {
+        "name": ": A Saxena",
+        "affiliation": null
+      },
+      {
+        "name": ": Bharti",
+        "affiliation": null
+      },
+      {
+        "name": "P K Rai",
+        "affiliation": null
+      },
+      {
+        "name": "J M Khurana",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Centre for Fire, Explosive and Environment Safety, DRDO, Timarpur, India"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Chemistry, University of Delhi, Delhi, India"
+      }
+    ],
+    "identifiers": {
+      "MD5": "E9EF7ADD2BAECBED440E8F05A635047B",
+      "DOI": "10.1007/s11270-017-3361-1"
+    },
+    "keywords": [
+      "Adsorption",
+      "Composites",
+      "Contaminated water",
+      "Degradation",
+      "Dyes",
+      "Graphene"
+    ],
+    "abstract": "Water contamination has reached an alarming state due to industrialization and urbanization and has become a worldwide issue. Dyes contaminate water and are addressed extensively by researchers. Various technologies and materials have been developed for the treatment of contaminated water. Among them, adsorption has attracted great attention due to its ease and cost-effective nature. In recent years, graphene-based composites have shown great potential for the removal of contaminants from water. The literature reveals the usefulness of composites of graphene with metal oxides, carbon derivatives, metal hybrids and polymers for the removal of organic dyes from contaminated water. In this review, efforts have been made to compile the studies on the removal of cationic and anionic dyes from water using graphene-based composites.",
+    "headings": [
+      "Introduction",
+      "Kinetic Models",
+      "2:303 ð1Þ",
+      "Adsorption Models",
+      "Mechanism of Dye Removal",
+      "Removal of Cationic Dyes",
+      "Removal of Methylene Blue",
+      "Adsorption",
+      "Removal of Rhodamine Blue",
+      "Removal of Other Cationic Dyes",
+      "Removal of Anionic Dyes",
+      "Removal of Methyl Orange",
+      "Removal of Other Anionic Dyes",
+      "Fig. 1",
+      "Fig. 2",
+      "Fig. 3",
+      "Table 2",
+      "Table 3",
+      "Table 4",
+      "Table 5"
+    ],
+    "top_references": [
+      {
+        "title": "Adsorptive removal of malachite green dye using durian seed-based activated carbon",
+        "authors": [
+          "M A Ahmad",
+          "N Ahmad",
+          "O S Bello"
+        ],
+        "publisher": null,
+        "journal": "Water Air & Soil Pollution",
+        "year": "2014",
+        "pages": null,
+        "type": null,
+        "raw_text": "adsorptive removal of malachite green dye using durian seed-based activated carbon water air & soil pollution m a ahmad n ahmad o s bello"
+      },
+      {
+        "title": "Removal of methylene blue from aqueous solution with self-assembled cylindrical graphenecarbon nanotube hybrid",
+        "authors": [
+          "L Ai",
+          "J Jiang"
+        ],
+        "publisher": null,
+        "journal": "Chemical Engineering Journal",
+        "year": "2012",
+        "pages": null,
+        "type": null,
+        "raw_text": "removal of methylene blue from aqueous solution with self-assembled cylindrical graphenecarbon nanotube hybrid chemical engineering journal l ai j jiang"
+      },
+      {
+        "title": "Removal of methylene blue from aqueous solution by a solvothermal-synthesized graphene/magnetite composite",
+        "authors": [
+          "L Ai",
+          "C Zhang",
+          "Z Chena"
+        ],
+        "publisher": null,
+        "journal": "Journal of Hazardous Materials",
+        "year": "2011",
+        "pages": null,
+        "type": null,
+        "raw_text": "removal of methylene blue from aqueous solution by a solvothermal-synthesized graphene/magnetite composite journal of hazardous materials l ai c zhang z chena"
+      },
+      {
+        "title": "Use of graphite oxide and/or thermally reduced graphite oxide for the removal of dyes from water",
+        "authors": [
+          "P Avetta",
+          "M Sangermano",
+          "M Lopez-Manchado",
+          "P Calza"
+        ],
+        "publisher": null,
+        "journal": "Journal of Photochemistry and Photobiology A: Chemistry",
+        "year": "2015",
+        "pages": null,
+        "type": null,
+        "raw_text": "use of graphite oxide and/or thermally reduced graphite oxide for the removal of dyes from water journal of photochemistry and photobiology a: chemistry p avetta m sangermano m lopez-manchado p calza"
+      },
+      {
+        "title": "Synthesis and characterization of ZnO NPs/reduced graphene oxide nanocomposites prepared in gelatine medium as highly efficient photo-degradation of MB",
+        "authors": [
+          "M Azarang",
+          "A Shuhaimi",
+          "R Yousefi",
+          "A M Golsheikh",
+          "M Sookhakian"
+        ],
+        "publisher": null,
+        "journal": "Ceramics Internaional",
+        "year": "2014",
+        "pages": null,
+        "type": null,
+        "raw_text": "synthesis and characterization of zno nps/reduced graphene oxide nanocomposites prepared in gelatine medium as highly efficient photo-degradation of mb ceramics internaional m azarang a shuhaimi r yousefi a m golsheikh m sookhakian"
+      }
+    ]
+  },
+  "Thrombospondin-1 Induction in the Diabetic Myocardium.pdf": {
+    "title": "Thrombospondin-1 Induction in the Diabetic Myocardium Stabilizes the Cardiac Matrix in Addition to Promoting Vascular Rarefaction Through Angiopoietin-2 Upregulation",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Nikolaos G Frangogiannis",
+        "affiliation": null
+      },
+      {
+        "name": "Carlos Gonzalez-Quesada",
+        "affiliation": null
+      },
+      {
+        "name": "Michele Cavalera",
+        "affiliation": null
+      },
+      {
+        "name": "Anna Biernacka",
+        "affiliation": null
+      },
+      {
+        "name": "Ping Kong",
+        "affiliation": null
+      },
+      {
+        "name": "Dong-Wook Lee",
+        "affiliation": null
+      },
+      {
+        "name": "Amit Saxena",
+        "affiliation": null
+      },
+      {
+        "name": "Olga Frunza",
+        "affiliation": null
+      },
+      {
+        "name": "Marcin Dobaczewski",
+        "affiliation": null
+      },
+      {
+        "name": "Arti Shinde",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Medicine (Cardiology), Wilf Family Cardiovascular Research Institute, Albert Einstein College of Medicine, Bronx"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Medicine, N.G.F.), Baylor College of Medicine, Houston"
+      },
+      {
+        "name": null,
+        "affiliation": "Family Cardiovascular Research Institute, Albert Einstein College of Medicine, 1300 Morris Park Ave, Forchheimer G46B, Bronx"
+      }
+    ],
+    "identifiers": {
+      "MD5": "7FF7B5CDF59FD5EF9C0AE8668BA017A3",
+      "DOI": "10.1161/CIRCRESAHA.113.302593"
+    },
+    "keywords": [],
+    "abstract": "D iabetes mellitus and obesity are associated with increased susceptibility to cardiovascular disease. 1,2 Data derived from the Framingham study suggest that men with diabetes mellitus have a 2.4-fold higher incidence of heart failure; the risk of heart failure is even higher (5.1-fold) in diabetic women. 3 The increased prevalence of heart failure in diabetes mellitus is only in part because of the increased risk of atherosclerotic coronary disease and its complications. Diabetics also develop a unique cardiomyopathic condition, termed diabetic cardiomyopathy, 4-6 that is independent of coronary artery disease. Diabetic cardiomyopathy is characterized by extensive fibrotic changes, expansion of the cardiac interstitium, 7 and profound alterations in the cardiac interstitial matrix 8 leading to increased myocardial stiffness and development of diastolic dysfunction. 9 Despite its significance, the pathophysiologic basis of cardiac fibrosis in diabetes mellitus remains poorly understood. Tissue fibrosis requires the dynamic participation of the extracellular matrix and is regulated by a family of structurally unrelated macromolecules called matricellular proteins. 10 Matricellular proteins are generally not expressed in the Integrative Physiology",
+    "headings": [
+      "Methods",
+      "Generation of db/db TSP-1 -/-Mice",
+      "Assessment of Adiposity",
+      "Assessment of Metabolic Profile",
+      "Echocardiography",
+      "Assessment of Contractile Function and Reserve in Isolated Perfused Mouse Hearts",
+      "Immunohistochemistry and Histology",
+      "RNA Extraction and Quantitative Real-Time PCR",
+      "Protein Extraction and Western Blotting",
+      "Hydroxyproline Assay",
+      "Zymography",
+      "Isolation and Stimulation of Cardiac Fibroblasts in Collagen Pads",
+      "Isolation and Stimulation of Mouse Splenic Macrophages",
+      "Stimulation of Mouse Cardiac Microvascular Endothelial Cells",
+      "Statistical Analysis",
+      "Results",
+      "Cardiac Fibrosis in db/db Mice Is Associated With TSP-1 Upregulation",
+      "Weight Gain and Adiposity in db/db TSP-1 -/-Mice",
+      "Effects of TSP-1 Loss on the Metabolic Profile in db/db Mice",
+      "dbTSP Mice Exhibit Nonprogressive Ventricular Dilation Accompanied by Modest Systolic Dysfunction",
+      "When Compared With db/db Hearts, dbTSP Hearts Exhibit Delayed Responses to Dobutamine",
+      "Effects of TSP-1 Loss on the Development of Diastolic Dysfunction in the db/db Heart",
+      "dbTSP Mice Exhibit Reduced Myocardial Collagen Content and Increased MMP Activation",
+      "Dilation and Increased Matrix Remodeling in dbTSP Mice Is Not Because of Impaired TGF-β Activation",
+      "Dilation of dbTSP Heart Is Not Because of Accentuated Inflammation",
+      "Cardiac Fibroblasts Harvested From dbTSP Mice Exhibit Attenuated Matrix Synthetic Capacity",
+      "When Bound to the Matrix, TSP-1 Does Not Activate TGF-β Responses But Enhances Matrix Preservation, Inhibiting Leptin-Induced MMP Activation",
+      "TSP-1 Loss Abrogates Capillary, But Not Arteriolar, Rarefaction in db/db Mice",
+      "TSP-1 Mediates Myocardial Angiopoietin-2 Upregulation in db/db Mice",
+      "TSP-1 Stimulation Upregulates Angiopoietin-2 Expression in Macrophages",
+      "Discussion",
+      "Conclusions",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Figure 3 .",
+      "Figure 4 .",
+      "Figure 5 .",
+      "Figure 6 .",
+      "Figure 7 .",
+      "Figure 8"
+    ],
+    "top_references": [
+      {
+        "title": "Diabetic heart disease",
+        "authors": [
+          "T H Marwick"
+        ],
+        "publisher": null,
+        "journal": "Heart",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "diabetic heart disease heart t h marwick"
+      },
+      {
+        "title": "Cardiac remodeling in obesity",
+        "authors": [
+          "E D Abel",
+          "S E Litwin",
+          "G Sweeney"
+        ],
+        "publisher": null,
+        "journal": "Physiol Rev",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "cardiac remodeling in obesity physiol rev e d abel s e litwin g sweeney"
+      },
+      {
+        "title": "Role of diabetes in congestive heart failure: the Framingham study",
+        "authors": [
+          "W B Kannel",
+          "M Hjortland",
+          "W P Castelli"
+        ],
+        "publisher": null,
+        "journal": "Am J Cardiol",
+        "year": "1974",
+        "pages": null,
+        "type": null,
+        "raw_text": "role of diabetes in congestive heart failure: the framingham study am j cardiol w b kannel m hjortland w p castelli"
+      },
+      {
+        "title": "New type of cardiomyopathy associated with diabetic glomerulosclerosis",
+        "authors": [
+          "S Rubler",
+          "J Dlugash",
+          "Y Z Yuceoglu",
+          "T Kumral",
+          "A W Branwood",
+          "A Grishman"
+        ],
+        "publisher": null,
+        "journal": "Am J Cardiol",
+        "year": "1972",
+        "pages": null,
+        "type": null,
+        "raw_text": "new type of cardiomyopathy associated with diabetic glomerulosclerosis am j cardiol s rubler j dlugash y z yuceoglu t kumral a w branwood a grishman"
+      },
+      {
+        "title": "The pathogenesis of myocardial fibrosis in the setting of diabetic cardiomyopathy",
+        "authors": [
+          "J Asbun",
+          "F J Villarreal"
+        ],
+        "publisher": null,
+        "journal": "J Am Coll Cardiol",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "the pathogenesis of myocardial fibrosis in the setting of diabetic cardiomyopathy j am coll cardiol j asbun f j villarreal"
+      }
+    ]
+  }
+}

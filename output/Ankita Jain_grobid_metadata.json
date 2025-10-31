@@ -1,0 +1,602 @@
+{
+  "document (1).pdf": {
+    "title": "A New Algorithm for 3D Object Representation and its Application for Human Face Verification",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Pranali Dhane",
+        "affiliation": "Center for Research in Engineering Sciences & Technology (CREST), KPIT Cummins Infosystems Ltd, Pune, India"
+      },
+      {
+        "name": "Ankita Jain",
+        "affiliation": "Center for Research in Engineering Sciences & Technology (CREST), KPIT Cummins Infosystems Ltd, Pune, India"
+      },
+      {
+        "name": "Krishnan K Kutty",
+        "affiliation": "Center for Research in Engineering Sciences & Technology (CREST), KPIT Cummins Infosystems Ltd, Pune, India"
+      }
+    ],
+    "identifiers": {
+      "MD5": "1A7F63F2B2B9930F392AB0FC00EB59D0",
+      "DOI": "10.1109/ICIIP.2011.6108970"
+    },
+    "keywords": [
+      "Depth map",
+      "Fourier descriptor",
+      "Centroid signature",
+      "Mahalanobis distance",
+      "Face Verification"
+    ],
+    "abstract": "There are many papers published on the use of 2D images for object representation. The fundamental issue with these approaches lies in the fact that a conventional image maps 3D real world objects into a 2D plane. This causes loss of 3D information -which means loss of 3D features as well for further analysis. There have been attempts using 3D and 2.5D scanners in order to access range data from objects for further analysis. However, these systems require special scanners and associated hardware, and many a times the complete information that is obtained from such systems is not required for further analysis. In this paper, we propose a simple system that projects a light beam over an object of interest and using a simple optical camera a video is recorded. This enables us to have 2D data as acquired from the camera along with the 3D data that is derived out of the deviations in the scan pattern because of the non-planarity of the object of interest. We have limited our research to using 3D features only for object representation and extended the same logic for face verification. The results that we have obtained show that in spite of using only 3D features, the system is able to verify faces with varied expressions correctly on 75% of the test data. The system is robust to slight tilt in head angle and normal human expressions like smile, frown, grin etc.",
+    "headings": [
+      "INTRODUCTION",
+      "II. PROPOSED METHOD",
+      "III. DEPTH CALULATION",
+      "A. With Background",
+      "B. Without Background",
+      "( )",
+      "VI. APPLICATION TO FACE VERIFICATION",
+      "∑ (11)",
+      "VIII. RESULTS AND DISCUSSION",
+      "IX. CONCLUSION AND FUTURE WORK",
+      "Figure 1 .",
+      "Figure 3 .",
+      "Figure 4 .",
+      "Figure 5 .",
+      "Figure 6 .",
+      "Figure 7 .",
+      "Figure 8 .",
+      "Figure. 10 .",
+      "Figure 11 .",
+      "Figure 12 ."
+    ],
+    "top_references": [
+      {
+        "title": "A Comparative Study on Shape Retrieval Using Fourier Descriptors with Different Shape Signatures",
+        "authors": [
+          "Dengsheng Zhang",
+          "Guojun Lu"
+        ],
+        "publisher": null,
+        "journal": "Journal of Visual Communication and Image Representation",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "a comparative study on shape retrieval using fourier descriptors with different shape signatures journal of visual communication and image representation dengsheng zhang guojun lu"
+      },
+      {
+        "title": "A Taxonomy and Evaluation of Dense Two-Frame Stereo Correspondence Algorithms",
+        "authors": [
+          "Daniel Scharstein",
+          "Richard Szeliski"
+        ],
+        "publisher": null,
+        "journal": "International Journal of Computer Vision",
+        "year": "2002",
+        "pages": null,
+        "type": null,
+        "raw_text": "a taxonomy and evaluation of dense two-frame stereo correspondence algorithms international journal of computer vision daniel scharstein richard szeliski"
+      },
+      {
+        "title": "Automatic Feature Extraction for Multiview 3D Face Recognition",
+        "authors": [
+          "Xiaoguang Lu",
+          "Anil K Jain"
+        ],
+        "publisher": null,
+        "journal": "Proceedings of the 7th International Conference on Automatic Face and Gesture Recognition",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "automatic feature extraction for multiview 3d face recognition proceedings of the 7th international conference on automatic face and gesture recognition xiaoguang lu anil k jain"
+      },
+      {
+        "title": "A Fast Multi-Modal Approach to Facial Feature Detection",
+        "authors": [
+          "Chris Boehnen",
+          "Trina Russ"
+        ],
+        "publisher": null,
+        "journal": "Proceedings of the Seventh IEEE Workshops on Application of Computer Vision (WACV/MOTION'05",
+        "year": "2005",
+        "pages": null,
+        "type": null,
+        "raw_text": "a fast multi-modal approach to facial feature detection proceedings of the seventh ieee workshops on application of computer vision (wacv/motion'05 chris boehnen trina russ"
+      },
+      {
+        "title": "Fast And High Resolution 3d Face Scanning\" International Conference on Image Processing -ICIP",
+        "authors": [],
+        "publisher": null,
+        "journal": "Fast And High Resolution 3d Face Scanning\" International Conference on Image Processing -ICIP",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "fast and high resolution 3d face scanning\" international conference on image processing -icip fast and high resolution 3d face scanning\" international conference on image processing -icip"
+      }
+    ]
+  },
+  "document.pdf": {
+    "title": "Face Recognition using Depth Map Generation for Smart phones",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Anshu Sisodhiya",
+        "affiliation": null
+      },
+      {
+        "name": "Ankita Jain",
+        "affiliation": null
+      },
+      {
+        "name": "R M Banakar",
+        "affiliation": null
+      }
+    ],
+    "identifiers": {
+      "MD5": "01C8138BC1988A86FFFE936015171420"
+    },
+    "keywords": [
+      "Android",
+      "Depth map",
+      "Face recognition",
+      "Fourier descriptor",
+      "Mahalanobis distance"
+    ],
+    "abstract": "Face Recognition now a day's is one of the most popular biometric technologies because of its ease of use and simplicity. Face recognition using depth map is an emerging field, which is trying to use 2D features along with the depth information of the face for accurate identification of the subject. In this paper, a 3D face recognition system is proposed where depth information of the face is captured by calculating the deviations in the scan pattern because of the non-planarity of the face. By using this information a depth map is generated and 3D features are extracted from it by implementing Fourier Descriptor algorithm. This 3D feature is then matched with the 3D features of different faces stored in the database to identify an individual.",
+    "headings": [
+      "Introduction",
+      "Motivation",
+      "Literature Review",
+      "Proposed Method",
+      "Depth Map Generation",
+      "Figure 4: Depth Calculation",
+      "User Identification",
+      "Results",
+      "Conclusion and Future Work",
+      "Figure 1 :",
+      "Figure 2 :",
+      "Figure 3 :",
+      "Figure 5 :Figure 6 :",
+      "Figure 7 :",
+      "Figure 8 :",
+      "Figure 9 :",
+      "Figure 10 :"
+    ],
+    "top_references": [
+      {
+        "title": "3D Face Recognition Techniques -A Review",
+        "authors": [
+          "B Preeti",
+          "Mahesh M Sharma",
+          "Goyani"
+        ],
+        "publisher": null,
+        "journal": "International Journal of Engineering Research and Applications",
+        "year": "2012",
+        "pages": null,
+        "type": null,
+        "raw_text": "3d face recognition techniques -a review international journal of engineering research and applications b preeti mahesh m sharma goyani"
+      },
+      {
+        "title": "2D and 3D face recognition: A survey",
+        "authors": [],
+        "publisher": "Elsevier B.V",
+        "journal": "2D and 3D face recognition: A survey",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "2d and 3d face recognition: a survey 2d and 3d face recognition: a survey elsevier b.v"
+      },
+      {
+        "title": "International Conference on Image Processing-ICIP",
+        "authors": [],
+        "publisher": null,
+        "journal": "International Conference on Image Processing-ICIP",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "international conference on image processing-icip international conference on image processing-icip"
+      },
+      {
+        "title": "A Comparative Study on Shape Retrieval Using Fourier Descriptors with Different Shape Signatures",
+        "authors": [
+          "Dengsheng Zhang",
+          "Guojun Lu"
+        ],
+        "publisher": null,
+        "journal": "Journal of VisualCommunication and Image Representation",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "a comparative study on shape retrieval using fourier descriptors with different shape signatures journal of visualcommunication and image representation dengsheng zhang guojun lu"
+      },
+      {
+        "title": "A new algorithm for 3D object representation and its application for human face verification",
+        "authors": [],
+        "publisher": "IEEE",
+        "journal": "A new algorithm for 3D object representation and its application for human face verification",
+        "year": null,
+        "pages": null,
+        "type": null,
+        "raw_text": "a new algorithm for 3d object representation and its application for human face verification a new algorithm for 3d object representation and its application for human face verification ieee"
+      }
+    ]
+  },
+  "document1.pdf": {
+    "title": "Face Recognition using Depth Map Generation for Smart phones",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Anshu Sisodhiya",
+        "affiliation": null
+      },
+      {
+        "name": "Ankita Jain",
+        "affiliation": null
+      },
+      {
+        "name": "R M Banakar",
+        "affiliation": null
+      }
+    ],
+    "identifiers": {
+      "MD5": "01C8138BC1988A86FFFE936015171420"
+    },
+    "keywords": [
+      "Android",
+      "Depth map",
+      "Face recognition",
+      "Fourier descriptor",
+      "Mahalanobis distance"
+    ],
+    "abstract": "Face Recognition now a day's is one of the most popular biometric technologies because of its ease of use and simplicity. Face recognition using depth map is an emerging field, which is trying to use 2D features along with the depth information of the face for accurate identification of the subject. In this paper, a 3D face recognition system is proposed where depth information of the face is captured by calculating the deviations in the scan pattern because of the non-planarity of the face. By using this information a depth map is generated and 3D features are extracted from it by implementing Fourier Descriptor algorithm. This 3D feature is then matched with the 3D features of different faces stored in the database to identify an individual.",
+    "headings": [
+      "Introduction",
+      "Motivation",
+      "Literature Review",
+      "Proposed Method",
+      "Depth Map Generation",
+      "Figure 4: Depth Calculation",
+      "User Identification",
+      "Results",
+      "Conclusion and Future Work",
+      "Figure 1 :",
+      "Figure 2 :",
+      "Figure 3 :",
+      "Figure 5 :Figure 6 :",
+      "Figure 7 :",
+      "Figure 8 :",
+      "Figure 9 :",
+      "Figure 10 :"
+    ],
+    "top_references": [
+      {
+        "title": "3D Face Recognition Techniques -A Review",
+        "authors": [
+          "B Preeti",
+          "Mahesh M Sharma",
+          "Goyani"
+        ],
+        "publisher": null,
+        "journal": "International Journal of Engineering Research and Applications",
+        "year": "2012",
+        "pages": null,
+        "type": null,
+        "raw_text": "3d face recognition techniques -a review international journal of engineering research and applications b preeti mahesh m sharma goyani"
+      },
+      {
+        "title": "2D and 3D face recognition: A survey",
+        "authors": [],
+        "publisher": "Elsevier B.V",
+        "journal": "2D and 3D face recognition: A survey",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "2d and 3d face recognition: a survey 2d and 3d face recognition: a survey elsevier b.v"
+      },
+      {
+        "title": "International Conference on Image Processing-ICIP",
+        "authors": [],
+        "publisher": null,
+        "journal": "International Conference on Image Processing-ICIP",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "international conference on image processing-icip international conference on image processing-icip"
+      },
+      {
+        "title": "A Comparative Study on Shape Retrieval Using Fourier Descriptors with Different Shape Signatures",
+        "authors": [
+          "Dengsheng Zhang",
+          "Guojun Lu"
+        ],
+        "publisher": null,
+        "journal": "Journal of VisualCommunication and Image Representation",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "a comparative study on shape retrieval using fourier descriptors with different shape signatures journal of visualcommunication and image representation dengsheng zhang guojun lu"
+      },
+      {
+        "title": "A new algorithm for 3D object representation and its application for human face verification",
+        "authors": [],
+        "publisher": "IEEE",
+        "journal": "A new algorithm for 3D object representation and its application for human face verification",
+        "year": null,
+        "pages": null,
+        "type": null,
+        "raw_text": "a new algorithm for 3d object representation and its application for human face verification a new algorithm for 3d object representation and its application for human face verification ieee"
+      }
+    ]
+  },
+  "KKJha-1.pdf": {
+    "title": "Performance Analysis of NMOS for Higher Speed and Low Power Applications",
+    "funders": [
+      "IIT Kharagpur"
+    ],
+    "publisher": null,
+    "pub_date": "2014-12-06",
+    "authors": [
+      {
+        "name": "Kamal Jha",
+        "affiliation": "Indian Institute of Information Technology Vadodara"
+      },
+      {
+        "name": "Ankita Jain",
+        "affiliation": "Mahindra University"
+      },
+      {
+        "name": "Manisha Pattanaik",
+        "affiliation": "ABV-Indian Institute of Information Technology"
+      },
+      {
+        "name": "Anurag Srivastava",
+        "affiliation": "ABV-Indian Institute of Information Technology and Management Gwalior"
+      },
+      {
+        "name": "Kishor Kamal",
+        "affiliation": "ABV-IIITM Gwalior Gwalior (M.P, VLSI Design Lab, India"
+      },
+      {
+        "name": "Ankita Jha",
+        "affiliation": "ABV-IIITM Gwalior Gwalior (M.P, VLSI Design Lab, India"
+      },
+      {
+        "name": "Manisha Jain",
+        "affiliation": "ABV-IIITM Gwalior Gwalior (M.P, VLSI Design Lab, India"
+      },
+      {
+        "name": "Pattanaik",
+        "affiliation": "ABV-IIITM Gwalior Gwalior (M.P, VLSI Design Lab, India"
+      }
+    ],
+    "identifiers": {
+      "MD5": "F0B15FA9ECDD7091B320CFAC6CE2B9D2",
+      "DOI": "10.1109/FUTURETECH.2010.5482680"
+    },
+    "keywords": [],
+    "abstract": "Integrated circuits based on low supply voltage and subthreshold operations of NMOS devices are very attractive for low power applications. An effective way to reduce supply voltage and resulting in power consumption without losing the circuit performance of NMOS is to increase the drive current of NMOS. This paper reports the scaling analysis of NMOS from deepsubmicron to nanometer technologies, in which channel length has been scaled down from 600nm to 90nm. For simulation, ATLAS device simulator is used, by using the models LAMBARDI (CVT) mobility model and fixed Shockley-read-hall model recombination model. Simulation result depicts that threshold voltage is 0.26V at 600nm, 0.04V at 180nm and 0.01V at 90nm so nanometer range NMOS devices can be very attractive for low power and subthreshold operations.",
+    "headings": [
+      "INTRODUCTION",
+      "II. DEVICE STRUCTURE AND SIMULATION",
+      "III. RESULTS AND DISCUSSION",
+      "A. DC Analysis",
+      "B. AC Analysis",
+      "Figure 1 .",
+      "Fig. 2",
+      "Figure 2 .Fig. 3",
+      "Figure 3 ."
+    ],
+    "top_references": [
+      {
+        "title": "Hon-Sum Wong \"CMOS Scaling into the Nanometer Regime",
+        "authors": [
+          "Yaur Taur",
+          "Douglas A Buchanan",
+          "Wei Chen",
+          "David J Frank",
+          "Khalid E Ismail",
+          "Shih-Hsien Lo",
+          "George A Sai-Halasz",
+          "G Raman",
+          "Viswanathan",
+          "C Hsing-Jen",
+          "Shalom J Wann",
+          "Wind"
+        ],
+        "publisher": null,
+        "journal": "proceedings of the IEEE",
+        "year": "1997",
+        "pages": null,
+        "type": null,
+        "raw_text": "hon-sum wong \"cmos scaling into the nanometer regime proceedings of the ieee yaur taur douglas a buchanan wei chen david j frank khalid e ismail shih-hsien lo george a sai-halasz g raman viswanathan c hsing-jen shalom j wann wind"
+      },
+      {
+        "title": "Electronics Beyond Nano-scale CMOS",
+        "authors": [],
+        "publisher": null,
+        "journal": "Electronics Beyond Nano-scale CMOS",
+        "year": "2006",
+        "pages": null,
+        "type": null,
+        "raw_text": "electronics beyond nano-scale cmos electronics beyond nano-scale cmos"
+      },
+      {
+        "title": "Progress in Digital Integrated Electronics",
+        "authors": [],
+        "publisher": null,
+        "journal": "IEDM Tech Digest",
+        "year": "1975",
+        "pages": null,
+        "type": null,
+        "raw_text": "progress in digital integrated electronics iedm tech digest"
+      },
+      {
+        "title": "Leakage Current Mechanisms and Leakage Reduction Techniques in deep-submicrometer CMOS circuits",
+        "authors": [
+          "Kaushik Roy",
+          "Saibal Mukhopadhya",
+          "Hamid Mahmoodi-Meimand"
+        ],
+        "publisher": null,
+        "journal": "proceedings of the IEEE",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "leakage current mechanisms and leakage reduction techniques in deep-submicrometer cmos circuits proceedings of the ieee kaushik roy saibal mukhopadhya hamid mahmoodi-meimand"
+      },
+      {
+        "title": "Future CMOS Scaling and Reliability\" proceeding of the IEEE",
+        "authors": [],
+        "publisher": null,
+        "journal": "Future CMOS Scaling and Reliability\" proceeding of the IEEE",
+        "year": "1993",
+        "pages": null,
+        "type": null,
+        "raw_text": "future cmos scaling and reliability\" proceeding of the ieee future cmos scaling and reliability\" proceeding of the ieee"
+      }
+    ]
+  },
+  "Multi_camera_based_surveillance_system.pdf": {
+    "title": "Multi-Camera Based Surveillance System",
+    "funders": [],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Reena Kumari Behera",
+        "affiliation": "Center for Research in Engineering Sciences and Technology (CREST) KPIT Cummins Infosystems Limited, Pune, India"
+      },
+      {
+        "name": "Pallavi Kharade",
+        "affiliation": "Center for Research in Engineering Sciences and Technology (CREST) KPIT Cummins Infosystems Limited, Pune, India"
+      },
+      {
+        "name": "Suresh Yerva",
+        "affiliation": "Center for Research in Engineering Sciences and Technology (CREST) KPIT Cummins Infosystems Limited, Pune, India"
+      },
+      {
+        "name": "Pranali Dhane",
+        "affiliation": "Center for Research in Engineering Sciences and Technology (CREST) KPIT Cummins Infosystems Limited, Pune, India"
+      },
+      {
+        "name": "Ankita Jain",
+        "affiliation": "Center for Research in Engineering Sciences and Technology (CREST) KPIT Cummins Infosystems Limited, Pune, India"
+      },
+      {
+        "name": "Krishnan Kutty",
+        "affiliation": "Center for Research in Engineering Sciences and Technology (CREST) KPIT Cummins Infosystems Limited, Pune, India"
+      }
+    ],
+    "identifiers": {
+      "MD5": "FAE6E77721E7745A1886C3B208FA8930",
+      "DOI": "10.1109/WICT.2012.6409058"
+    },
+    "keywords": [
+      "Multi-camera",
+      "surveillance",
+      "homography",
+      "handshaking",
+      "occlusion"
+    ],
+    "abstract": "In recent years, surveillance systems have gained increased importance in order to increase the safety and security of people. These systems have applications in various domains like home or bank security, traffic monitoring, defense; and in public places like railway stations, malls, airports, etc. Our goal is to develop an intelligent real-time surveillance system that can help in increasing the efficiency of the system. In order to cover a large area, we need to install more number of cameras that leads to more number of videos that are to be monitored simultaneously. This in turn increases human intervention and makes it error prone. Therefore, it is of utmost importance to automate the complete system. In the proposed system, cameras are placed in such a way that there is a significant overlap between the field of view of the cameras. This helps in establishing an association between the cameras. The proposed real time surveillance system detects and tracks the objects in motion and provides automatic warning in case of suspicious activities such as unidentified object and restricted zone monitoring. The system provides different views in different cameras, thereby helping in resolving the occlusion in a simple and novel way. The algorithm has been tested on a CPU platform (Intel dual core with 4 GB RAM) with four wireless IP cameras (1.3 MP EDiMAX camera with night vision support) with a processing rate of 10 fps. This system can handle up to eight cameras on a GPU platform (NVIDIA GeForce GTX 480) with frame rate of 25fps.",
+    "headings": [
+      "INTRODUCTION",
+      "II. MULTI-CAMERA SETUP",
+      "A. Association between cameras",
+      "   ",
+      "B. Field Of View(FoV) Lines",
+      "III. METHODOLOGY",
+      "A. Change Detection",
+      "C. Handshaking",
+      "1) Unauthorized object detection:",
+      "V. FUTURE WORK",
+      "Figure 1 .",
+      "Figure 2 . FOV lines 2 .",
+      "Figure 3 .",
+      "2 Figure 4 .",
+      "Figure 5 .",
+      "Figure 6 .",
+      "Figure 8 .",
+      "Figure 9 .",
+      "Figure 10 .",
+      "Figure 11 .",
+      "Figure 12 .",
+      "Figure 13 .",
+      "TABLE I ."
+    ],
+    "top_references": [
+      {
+        "title": "W4: Real-time surveillance of people and their activities",
+        "authors": [
+          "I Haritaoglu",
+          "D Harwood",
+          "L Davis"
+        ],
+        "publisher": null,
+        "journal": "IEEE Trans. Pattern Analysis and Machine Intelligence",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "w4: real-time surveillance of people and their activities ieee trans. pattern analysis and machine intelligence i haritaoglu d harwood l davis"
+      },
+      {
+        "title": "Learning patterns of activity using realtime tracking",
+        "authors": [
+          "C Stauffer",
+          "W Grimson"
+        ],
+        "publisher": null,
+        "journal": "IEEE Trans. Pattern Analysis and Machine Intelligence",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "learning patterns of activity using realtime tracking ieee trans. pattern analysis and machine intelligence c stauffer w grimson"
+      },
+      {
+        "title": "Foreground Object Detection from Videos Containing Complex Background",
+        "authors": [
+          "Liyuan Li",
+          "Weimin Huang",
+          "Irene Y H Gu",
+          "Qi Tian"
+        ],
+        "publisher": null,
+        "journal": "Proceedings of the eleventh ACM international conference on Multimedia",
+        "year": "2003",
+        "pages": null,
+        "type": null,
+        "raw_text": "foreground object detection from videos containing complex background proceedings of the eleventh acm international conference on multimedia liyuan li weimin huang irene y h gu qi tian"
+      },
+      {
+        "title": "Adaptive background mixture models for real-time tracking",
+        "authors": [
+          "Chris Stauffer",
+          "W E Grimson"
+        ],
+        "publisher": null,
+        "journal": "Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+        "year": "1999",
+        "pages": null,
+        "type": null,
+        "raw_text": "adaptive background mixture models for real-time tracking proceedings of ieee computer society conference on computer vision and pattern recognition chris stauffer w e grimson"
+      },
+      {
+        "title": "Digital Image Processing",
+        "authors": [],
+        "publisher": "Prentice-Hall, Inc",
+        "journal": "Digital Image Processing",
+        "year": "2001",
+        "pages": null,
+        "type": null,
+        "raw_text": "digital image processing digital image processing prentice-hall, inc"
+      }
+    ]
+  }
+}

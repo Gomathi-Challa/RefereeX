@@ -1,0 +1,6 @@
+Preprocessing text (404376 chars)...
+Cleaned text length: 265277
+  RAKE + NLTK stopwords loaded
+  Extracting RAKE keywords...
+  KeyBERT model loaded
+  Split text into 94 chunks

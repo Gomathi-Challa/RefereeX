@@ -1,0 +1,1063 @@
+{
+  "A comparative study of antioxidant activity, total phenolic and flavonoid contents in different parts of Helicteres isora L.pdf": {
+    "title": "A Comparative Study of Antioxidant Activity, Total Phenolic and Flavonoid Contents in Different Parts of Helicteres isora L",
+    "funders": [
+      "Science and Engineering Research Board, New Delhi"
+    ],
+    "publisher": null,
+    "pub_date": "2014-10-30",
+    "authors": [
+      {
+        "name": "Prem Pritam",
+        "affiliation": null
+      },
+      {
+        "name": "D Y Padmashree",
+        "affiliation": null
+      },
+      {
+        "name": "Patil Vidyapeeth'",
+        "affiliation": null
+      },
+      {
+        "name": "Amita Jain",
+        "affiliation": null
+      },
+      {
+        "name": "Rashmi Ranade",
+        "affiliation": null
+      },
+      {
+        "name": "Neelu Joshi",
+        "affiliation": null
+      },
+      {
+        "name": "Sirisha Lakshmi Vavilala",
+        "affiliation": null
+      },
+      {
+        "name": "Ankita Jain",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Indian Institute of Technology Bombay"
+      },
+      {
+        "name": null,
+        "affiliation": "School of Biotechnology and Bioinformatics, D.Y. Patil University, Sector No-15"
+      },
+      {
+        "name": null,
+        "affiliation": "CBD, Belapur, India"
+      }
+    ],
+    "identifiers": {
+      "ISSN": "2328-5702",
+      "MD5": "752045BCB9F6250A48316CA0B2266264",
+      "DOI": "10.11648/j.ajls.20140205.17"
+    },
+    "keywords": [
+      "2014; 2(5): 292-302 Helicteres isora L.",
+      "Phenols",
+      "Flavonoids",
+      "DPPH",
+      "FRAP",
+      "RP-HPLC"
+    ],
+    "abstract": "Helicteres isora L., commonly known as Indian Screw Tree is a highly valued medicinal plant in South-East Asia. The various phytochemicals like phenols, flavonoids and other antioxidants that impart the medicinal properties in this plant, vary in their composition and concentration in different plant parts. In the present research, the total phenolic content, total flavonoids content and free radical scavenging activity (FRAP and DPPH assay) in fresh and dry sample extracts of leaf, bark, fruit and root of H. isora L., prepared in four different solvents (distilled water, ethanol, methanol and acetone) were studied, and their results compared using Pearson's Correlation. The plant extracts were also subjected to RP-HPLC for detection and quantitation of naturally occurring phenolic compounds using six phenolic standards (Gallic acid, Vanillin, Catechol, Ferrulic acid, p-coumaric acid and Caffeic acid). The highest total phenolic content (7.22 mg/g GAE) and FRAP value (64.98 mg/g TE) were observed in aqueous dry root extract. The acetone extract of fresh leaf (57.08 mg/g of RE) was found richest in total flavonoids, while the methanolic extract of fresh fruit uniquely exhibited strong free radical scavenging activity as evidenced by the low IC50 value (34.37 mg/ml) in DPPH assay. The RP-HPLC analysis revealed that Catechol and Gallic acid were most abundantly found phenolic compounds in extracts of H. isora L. The total phenolic content showed strong positive correlation with free radical scavenging activity (FRAP and DPPH assays) in both fresh and dry plant parts, suggesting that phenols are the main compounds responsible for the antioxidant activity. The root of H. isora L. was found rich in phenolics and antioxidant capacity indicating its strong potential for medicinal use, followed by fruit, leaf and bark.",
+    "headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Plant Material",
+      "Preparation of Crude Plant Extracts",
+      "Chemicals",
+      "Qualitative Phytochemical Analysis",
+      "Quantitative Phytochemical Assay",
+      "Total Phenolic Content (TPC)",
+      "Total Flavonoid Content (TFC)",
+      "Ferric Reducing Antioxidant Power (FRAP) Assay",
+      "DPPH Radical Scavenging Activity Assay",
+      "Detection and Quantification of Phenolic",
+      "Data Analysis",
+      "Results",
+      "3.2.Total Phenolic Content (TPC)",
+      "Figure 1(a). Total phenolic content of fresh sample extracts of Helicteres isora (L.) in different solvents.",
+      "Figure 1(b). Total phenolic content of dry sample extracts of Helicteres isora (L.",
+      "Total Flavonoid Content",
+      "FRAP Assay",
+      "DPPH Radical Scavenging Activity",
+      "RP-HPLC Analysis for Phenolic Compounds",
+      "Figure 2(a). Total Flavonoid Content of fresh sample extracts of Helicteres isora (L.) in different solvents",
+      "Figure 2(b). Total Flavonoid Content of dry sample extracts of Helicteres isora (L.) in different solvents",
+      "Figure 3(a). FRAP values of fresh samples extracts of Helicteres isora (L.) in different solvents.",
+      "Discussion",
+      "Conclusion",
+      "Figure 3 (",
+      "Figure 4 (",
+      "Table 1 .",
+      "Table 2 .",
+      "Table 4 ."
+    ],
+    "top_references": [
+      {
+        "title": "Antihyperlipidemic activity of Helicteres isora fruit extract on streptozotocin induced diabetic male wistar rats",
+        "authors": [
+          "C Raja",
+          "S Elanchezhiyan",
+          "Sethupathy"
+        ],
+        "publisher": null,
+        "journal": "European Review for Medical and Pharmacological Sciences",
+        "year": "2010",
+        "pages": null,
+        "type": null,
+        "raw_text": "antihyperlipidemic activity of helicteres isora fruit extract on streptozotocin induced diabetic male wistar rats european review for medical and pharmacological sciences c raja s elanchezhiyan sethupathy"
+      },
+      {
+        "title": "The Pernicious Panacea: Herbal Medicine",
+        "authors": [
+          "L Goldfrank",
+          "N Lewin",
+          "N Flomenbaum",
+          "M Howland"
+        ],
+        "publisher": null,
+        "journal": "Hospital physicians",
+        "year": "1982",
+        "pages": null,
+        "type": null,
+        "raw_text": "the pernicious panacea: herbal medicine hospital physicians l goldfrank n lewin n flomenbaum m howland"
+      },
+      {
+        "title": "Drugs used in non-orthodox medicine",
+        "authors": [
+          "P Vulto",
+          "Smet"
+        ],
+        "publisher": null,
+        "journal": "Meyler's side effects of drugs",
+        "year": "1988",
+        "pages": null,
+        "type": null,
+        "raw_text": "drugs used in non-orthodox medicine meyler's side effects of drugs p vulto smet"
+      },
+      {
+        "title": "A coereˆ ncia e a confiabilidade das indicac¸o˜esterapeˆuticas",
+        "authors": [
+          "L Mentz",
+          "E Schenkel"
+        ],
+        "publisher": null,
+        "journal": "Caderno de Farma´ cia",
+        "year": "1989",
+        "pages": null,
+        "type": null,
+        "raw_text": "a coereˆ ncia e a confiabilidade das indicac¸o˜esterapeˆuticas caderno de farma´ cia l mentz e schenkel"
+      },
+      {
+        "title": "In vitro antibacterial, cytotoxic and antioxidant activities of plant Nephelium longan",
+        "authors": [
+          "F Ripa",
+          "M Haque",
+          "I Bulbul"
+        ],
+        "publisher": null,
+        "journal": "Pakistan Journal of Biological Sciences",
+        "year": "2010",
+        "pages": null,
+        "type": null,
+        "raw_text": "in vitro antibacterial, cytotoxic and antioxidant activities of plant nephelium longan pakistan journal of biological sciences f ripa m haque i bulbul"
+      }
+    ]
+  },
+  "Estimation of flavonoid, phenol content and antioxidant potential of Indian screw tree (Helicteres isora L.).pdf": {
+    "title": "ESTIMATION OF FLAVONOID, PHENOL CONTENT AND ANTIOXIDANT POTENTIAL OF INDIAN SCREW TREE (HELICTERES ISORA L.)",
+    "funders": [],
+    "publisher": null,
+    "pub_date": "2014-04-01",
+    "authors": [
+      {
+        "name": "Amita Jain",
+        "affiliation": null
+      },
+      {
+        "name": "Prakriti Sinha",
+        "affiliation": null
+      },
+      {
+        "name": "Neetin S Desai",
+        "affiliation": null
+      },
+      {
+        "name": "D Y Patil",
+        "affiliation": null
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Biotechnology and Bioinformatics, Padmashree Dr. D.Y. Patil University, Sector No-15"
+      },
+      {
+        "name": null,
+        "affiliation": "CBD, Navi Mumbai -400 614, Belapur, India"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Biotechnology and Bioinformatics, University, Sector No-15"
+      },
+      {
+        "name": null,
+        "affiliation": "CBD, Navi Mumbai-400 614, Belapur, Maharashtra, India"
+      }
+    ],
+    "identifiers": {
+      "ISSN": "0975-8232; P",
+      "MD5": "37C3C66687255406207BEEC965A175B7",
+      "DOI": "10.13040/IJPSR.0975-8232.5(4).1320-30"
+    },
+    "keywords": [
+      "ABTS: 2",
+      "2'-azino-bis(3ethylbenzothiazoline-6-sulfonic acid) DPPH: 2",
+      "2-diphenyl-1-picrylhidrazyl FRAP: Ferric Reducing Antioxidant Power GAE: Gallic Acid Equivalent RE: Rutin Equivalent RP-HPLC: Reverse Phase -High Performance Liquid Chromatography TEAC: Trolox Equivalent Antioxidant Capacity TFC: Total Flavonoid Content TPC: Total Phenolic Content Helicteres isora",
+      "Antioxidant activity",
+      "Phenolic content",
+      "Flavonoid content",
+      "RP-HPLC"
+    ],
+    "abstract": "Helicteres isora (L.), a South-Asian plant, is a rich source of medicinal and antioxidant compounds and has been widely used in traditional medicine. Antioxidants are important to neutralize damaging free radicals in the body, especially when the systemic defence mechanisms prove insufficient. The objective of this study was to determine the antioxidant potential of its fresh and dry plant parts in various solvent systems. Plant material was collected from Karnala forest of Maharashtra. Extracts of leaves, bark, root and fruits (fresh and dry) were prepared using four different solvents viz. Distilled water, Ethanol, Methanol and Acetone. Each extract was tested for total phenolic content, total flavonoid content, and antioxidant activity by -FRAP, DPPH˙ and ABTS˙+ assays while phenolic compounds like Gallic acid, Cathechol, Vanillin, Caffic acid, p-Coumaric acid and Ferulic acid were detected using RP-HPLC. Antioxidant potential was significantly high in dried plant parts than the fresh ones. Leaves showed highest phenolic and flavonoid content (11.47 ± 0.50 mg GAE/g) and (54.16 ± 1.22 mg RE/g) with 90.21 ± 0.57% DPPH˙ radical scavenging activity.The FRAP and ABTS˙+ radical scavenging activity was found considerably high in leaves as well as in roots and fruits. Hence, the dried plant material like leaves, root and fruit when prepared in distilled water and methanol showed best antioxidant activity and holds potential for development into herbal formulation to be used as medicine, though further study is necessary to confirm its activity and suitability within the body. Helicteres isora L. (Family: Sterculiaceae) distributed widely in forests throughout India and commonly known as East Indian screw tree, is a medicinally important subdeciduous shrub or a small tree 1 .",
+    "headings": [
+      "MATERIALS AND METHODS:",
+      "Total Phenolic Content (TPC) 15 :",
+      "DPPH Radical Scavenging Activity Assay 16 :",
+      "Data analysis:",
+      "RESULTS AND DISCUSSION:",
+      "2, 2-diphenyl-1-picrylhidrazyl (DPPH˙) radical scavenging assay:",
+      "2,2'-azino-bis(3-ethylbenzothiazoline-6sulphonic acid (ABTS˙+) radical scavenging assay:",
+      "Correlation analysis between TPC, TFC and Antioxidant activity (DPPH˙, FRAP and ABTS˙+ assays):",
+      "CONCLUSION:",
+      "REFERENCES:",
+      "FIGURE 1 :",
+      "Ferric Reducing Antioxidant Power (FRAP) assay 17 : This assay quantitates the amount",
+      "Total Flavonoid Content:",
+      "TABLE 2",
+      "TABLE 3 : ANOVA FOR TOTAL PHENOLIC CONTENT (TPC), TOTAL FLAVONOID CONTENT (TFC) AND ANTIOXIDANT ACTIVITY ASSAYS (FRAP, DPPH, ABTS) AMONG DIFFERENT SOLVENT EXTRACTS OF H.",
+      "TABLE 4 : CORRELATIONS (R AND R 2 ) BETWEEN DIFFERENT ANTIOXIDANT CAPACITY PARAMETERS (BY ABTS, DPPH AND FRAP ASSAYS), TOTAL PHENOLIC CONTENT (TPC) AND TOTAL FLAVONOID CONTENT (TFC) OF H. ISORA FRESH AND DRY PLANT PARTS."
+    ],
+    "top_references": [
+      {
+        "title": "Ethnobotany of Helicteres isora Linn",
+        "authors": [
+          "K K Singh",
+          "S Saha",
+          "J K Maheswari"
+        ],
+        "publisher": null,
+        "journal": "Kheri district",
+        "year": "1985",
+        "pages": null,
+        "type": null,
+        "raw_text": "ethnobotany of helicteres isora linn kheri district k k singh s saha j k maheswari"
+      },
+      {
+        "title": "Indian Medicinal Plants",
+        "authors": [],
+        "publisher": null,
+        "journal": "Indian Medicinal Plants",
+        "year": "1995",
+        "pages": null,
+        "type": null,
+        "raw_text": "indian medicinal plants indian medicinal plants"
+      },
+      {
+        "title": "Screening of Indonesian plant extracts for anti human immuno deficiency virus type1 (HIV-1) activity",
+        "authors": [
+          "T Otake",
+          "H Mori",
+          "M Morimoto",
+          "N Ueba",
+          "S Sutardjo",
+          "I I Kusomoto"
+        ],
+        "publisher": null,
+        "journal": "Phytother Res",
+        "year": "1995",
+        "pages": null,
+        "type": null,
+        "raw_text": "screening of indonesian plant extracts for anti human immuno deficiency virus type1 (hiv-1) activity phytother res t otake h mori m morimoto n ueba s sutardjo i i kusomoto"
+      },
+      {
+        "title": "Preliminary phytochemical studies on the methanolic flower extracts of some selected medicinal plants from India",
+        "authors": [
+          "J M Antonisamy",
+          "J S Aparna",
+          "S Jeeva",
+          "S Sukumaran",
+          "B Anantham"
+        ],
+        "publisher": null,
+        "journal": "Asian pacific J of trop Biomed",
+        "year": "2012",
+        "pages": null,
+        "type": null,
+        "raw_text": "preliminary phytochemical studies on the methanolic flower extracts of some selected medicinal plants from india asian pacific j of trop biomed j m antonisamy j s aparna s jeeva s sukumaran b anantham"
+      },
+      {
+        "title": "Polyphenol: do they play a role in the prevention of human pathologies",
+        "authors": [
+          "H Tapiero",
+          "K D Tew",
+          "G N Ba",
+          "G Mathe"
+        ],
+        "publisher": null,
+        "journal": "Pharmacother",
+        "year": "2002",
+        "pages": null,
+        "type": null,
+        "raw_text": "polyphenol: do they play a role in the prevention of human pathologies pharmacother h tapiero k d tew g n ba g mathe"
+      }
+    ]
+  },
+  "Micro-Computed tomography (CT) based assessment of dental regenerative therapy in the canine mandible model.pdf": {
+    "title": "Micro-Computed tomography (CT) based assessment of dental regenerative therapy in the canine mandible model",
+    "funders": [
+      "Toshiba Medical Systems Corporation",
+      "National Institutes of Health",
+      "NIH",
+      "The Bruce Holm Memorial Catalyst Fund (UB STOR)"
+    ],
+    "publisher": null,
+    "pub_date": "2016-02-09",
+    "authors": [
+      {
+        "name": "P Khobragade",
+        "affiliation": "Department of Biomedical Engineering, State University of New York at Buffalo"
+      },
+      {
+        "name": "A Jain",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, State University of New York at Buffalo"
+      },
+      {
+        "name": "S V Setlur Nagesh",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, State University of New York at Buffalo"
+      },
+      {
+        "name": "S Andreana",
+        "affiliation": "Department of Restorative Dentistry, State University of New York at Buffalo"
+      },
+      {
+        "name": "R Dziak",
+        "affiliation": "Department of Oral Biology, State University of New York at Buffalo"
+      },
+      {
+        "name": "S K Sunkara",
+        "affiliation": "Department of Oral Biology, State University of New York at Buffalo"
+      },
+      {
+        "name": "D R Bednarek",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, State University of New York at Buffalo"
+      },
+      {
+        "name": "S Rudin",
+        "affiliation": "Department of Biomedical Engineering, State University of New York at Buffalo"
+      },
+      {
+        "name": "C N Ionita",
+        "affiliation": "Department of Biomedical Engineering, State University of New York at Buffalo"
+      }
+    ],
+    "identifiers": {
+      "MD5": "E9D42947E9F5190CBF857E688B64ACF7",
+      "DOI": "10.1117/12.2082173"
+    },
+    "keywords": [],
+    "abstract": "High-resolution 3D bone-tissue structure measurements may provide information critical to the understanding of the bone regeneration processes and to the bone strength assessment. Tissue engineering studies rely on such nondestructive measurements to monitor bone graft regeneration area. In this study, we measured bone yield, fractal dimension and trabecular thickness through micro-CT slices for different grafts and controls. Eight canines underwent surgery to remove a bone volume (defect) in the canine's jaw at a total of 44 different locations. We kept 11 defects empty for control and filled the remaining ones with three regenerative materials; NanoGen (NG), a FDA-approved material (n=11), a novel NanoCalcium Sulfate (NCS) material (n=11) and NCS alginate (NCS+alg) material (n=11). After a minimum of four and eight weeks, the canines were sacrificed and the jaw samples were extracted. We used a custom-built micro-CT system to acquire the data volume and developed software to measure the bone yield, fractal dimension and trabecular thickness. The software used a segmentation algorithm based on histograms derived from volumes of interest indicated by the operator. Using bone yield and fractal dimension as indices we are able to differentiate between the control and regenerative material (p<0.005). Regenerative material NCS showed an average 63.15% bone yield improvement over the control sample, NCS+alg showed 55.55% and NanoGen showed 37.5%. The bone regeneration process and quality of bone were dependent upon the position of defect and time period of healing. This study presents one of the first quantitative comparisons using non-destructive Micro-CT analysis for bone regenerative material in a large animal with a critical defect model. Our results indicate that Micro-CT measurement could be used to monitor in-vivo bone regeneration studies for greater regenerative process understanding.",
+    "headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Sample preparation",
+      "Data acquisition",
+      "Data analysis",
+      "Statistical analysis-",
+      "Result",
+      "Discussion",
+      "Conclusion",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Figure 3 .",
+      "Figure 4 .",
+      "Figure 5 .",
+      "Figure 6 .",
+      "Figure 7 .",
+      "Figure 8 .",
+      "Figure 8 (",
+      "Figure 9 .",
+      "Figure 9 ("
+    ],
+    "top_references": [
+      {
+        "title": "Correlation of bone mineral density with strength and microstructural parameters of cortical bone in vitro",
+        "authors": [],
+        "publisher": null,
+        "journal": "Correlation of bone mineral density with strength and microstructural parameters of cortical bone in vitro",
+        "year": "2002",
+        "pages": null,
+        "type": null,
+        "raw_text": "correlation of bone mineral density with strength and microstructural parameters of cortical bone in vitro correlation of bone mineral density with strength and microstructural parameters of cortical bone in vitro"
+      },
+      {
+        "title": "Selecting regions of interest on intraoral radiographs for the prediction of bone mineral density",
+        "authors": [
+          "W G Geraets",
+          "J G Verheij",
+          "P F Van Der Stelt",
+          "K Horner",
+          "C Lindh",
+          "K Nicopoulou-Karayianni"
+        ],
+        "publisher": null,
+        "journal": "Dentomaxillofac Radiol",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "selecting regions of interest on intraoral radiographs for the prediction of bone mineral density dentomaxillofac radiol w g geraets j g verheij p f van der stelt k horner c lindh k nicopoulou-karayianni"
+      },
+      {
+        "title": "Microcomputed tomography-based structural analysis of various bone tissue regeneration models",
+        "authors": [
+          "I Kallai",
+          "O Mizrahi",
+          "W Tawackoli",
+          "Z Gazit",
+          "G Pelled",
+          "D Gazit"
+        ],
+        "publisher": null,
+        "journal": "Nat Protoc",
+        "year": "2011",
+        "pages": null,
+        "type": null,
+        "raw_text": "microcomputed tomography-based structural analysis of various bone tissue regeneration models nat protoc i kallai o mizrahi w tawackoli z gazit g pelled d gazit"
+      },
+      {
+        "title": "Current strategies for cell delivery in cartilage and bone regeneration",
+        "authors": [
+          "M Sittinger",
+          "D W Hutmacher",
+          "M V Risbud"
+        ],
+        "publisher": null,
+        "journal": "Curr Opin Biotechnol. Oct",
+        "year": "2004",
+        "pages": null,
+        "type": null,
+        "raw_text": "current strategies for cell delivery in cartilage and bone regeneration curr opin biotechnol. oct m sittinger d w hutmacher m v risbud"
+      },
+      {
+        "title": "3D micro-computed tomography of trabecular and cortical bone architecture with application to a rat model of immobilisation osteoporosis",
+        "authors": [
+          "A Laib",
+          "O Barou",
+          "L Vico",
+          "M H Lafage-Proust",
+          "C Alexandre",
+          "P Rugsegger"
+        ],
+        "publisher": null,
+        "journal": "Med Biol Eng Comput",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "3d micro-computed tomography of trabecular and cortical bone architecture with application to a rat model of immobilisation osteoporosis med biol eng comput a laib o barou l vico m h lafage-proust c alexandre p rugsegger"
+      }
+    ]
+  },
+  "Quantitative comparison using Generalized Relative Object Detectability (G-ROD) metrics of an amorphous selenium detector with high resolution Microangiographic Fluoroscopes.pdf": {
+    "title": "Quantitative comparison using Generalized Relative Object Detectability (G-ROD) metrics of an amorphous selenium detector with high resolution Microangiographic Fluoroscopes (MAF) and standard flat panel detectors (FPD)",
+    "funders": [
+      "Toshiba Medical Systems Corp",
+      "National Institutes of Health",
+      "NIH"
+    ],
+    "publisher": null,
+    "pub_date": "2017-06-12",
+    "authors": [
+      {
+        "name": "M Russ",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "A Shankar",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "A Jain",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "S V Setlur Nagesh",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "C N Ionita",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "C Scott",
+        "affiliation": "Electrical and Computer Engineering, University of Waterloo, Waterloo"
+      },
+      {
+        "name": "K S Karim",
+        "affiliation": "Electrical and Computer Engineering, University of Waterloo, Waterloo"
+      },
+      {
+        "name": "D R Bednarek",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "S Rudin",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      }
+    ],
+    "identifiers": {
+      "MD5": "13927D522DC87AF569DF415BBA5C4417",
+      "DOI": "10.1117/12.2216733"
+    },
+    "keywords": [
+      "Comparative metrics",
+      "amorphous selenium",
+      "CMOS",
+      "micro-angiography",
+      "relative object detectability",
+      "generalized metrics",
+      "DQE"
+    ],
+    "abstract": "A novel amorphous selenium (a-Se) direct detector with CMOS readout has been designed, and relative detector performance investigated. The detector features include a 25μm pixel pitch, and 1000μm thick a-Se layer operating at 10V/μm bias field. A simulated detector DQE was determined, and used in comparative calculations of the Relative Object Detectability (ROD) family of prewhitening matched-filter (PWMF) observer and non-prewhitening matched filter (NPWMF) observer model metrics to gauge a-Se detector performance against existing high resolution micro-angiographic fluoroscopic (MAF) detectors and a standard flat panel detector (FPD). The PWMF-ROD or ROD metric compares two x-ray imaging detectors in their relative abilities in imaging a given object by taking the integral over spatial frequencies of the Fourier transform of the detector DQE weighted by an object function, divided by the comparable integral for a different detector. The generalized-ROD (G-ROD) metric incorporates clinically relevant parameters (focal-spot size, magnification, and scatter) to show the degradation in imaging performance for detectors that are part of an imaging chain. Preliminary ROD calculations using simulated spheres as the object predicted superior imaging performance by the a-Se detector as compared to existing detectors. New PWMF-G-ROD and NPWMF-G-ROD results still indicate better performance by the a-Se detector in an imaging chain over all sphere sizes for various focal spot sizes and magnifications, although a-Se performance advantages were degraded by focal spot blurring. Nevertheless, the a-Se technology has great potential to provide breakthrough abilities such as visualization of fine details including of neuro-vascular perforator vessels and of small vascular devices.",
+    "headings": [
+      "INTRODUCTION",
+      "MATERIALS AND METHODS",
+      "EQ1",
+      "EQ4",
+      "EQ6",
+      "EQ7",
+      "RESULTS",
+      "DISCUSSION",
+      "CONCLUSIONS",
+      "Figure 1 .",
+      "Figure 2 .",
+      "Figure 3 .",
+      "Figure 4 .",
+      "Figure 5 .",
+      "Figure 6 .",
+      "Figure 7 .",
+      "Figure 8 .",
+      "Figure 9 ."
+    ],
+    "top_references": [
+      {
+        "title": "Endovascular image-guided interventions (EIGIs)",
+        "authors": [
+          "S Rudin",
+          "D R Bendarek",
+          "K R Hoffman"
+        ],
+        "publisher": null,
+        "journal": "Med Phys",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "endovascular image-guided interventions (eigis) med phys s rudin d r bendarek k r hoffman"
+      },
+      {
+        "title": "A study of factors limiting spatial resolution using a 25 micron pixel pitch direct-detection amorphous selenium imaging system",
+        "authors": [
+          "C C Scott",
+          "N Allec",
+          "K S Karim"
+        ],
+        "publisher": null,
+        "journal": "Proc. SPIE Medical Imaging",
+        "year": "2012",
+        "pages": null,
+        "type": null,
+        "raw_text": "a study of factors limiting spatial resolution using a 25 micron pixel pitch direct-detection amorphous selenium imaging system proc. spie medical imaging c c scott n allec k s karim"
+      },
+      {
+        "title": "Amorphous selenium direct detection CMOS digital x-ray imager with 25 micron pixel pitch",
+        "authors": [
+          "C C Scott",
+          "S Abbaszadeh",
+          "S Ghanbarzadeh",
+          "G Allan",
+          "M Farrier",
+          "I A Cunningham",
+          "K S Karim"
+        ],
+        "publisher": null,
+        "journal": "Proc. SPIE Medical Imaging",
+        "year": "2014",
+        "pages": null,
+        "type": null,
+        "raw_text": "amorphous selenium direct detection cmos digital x-ray imager with 25 micron pixel pitch proc. spie medical imaging c c scott s abbaszadeh s ghanbarzadeh g allan m farrier i a cunningham k s karim"
+      },
+      {
+        "title": "New Family of Generalized Metrics for Comparative Imaging System Evaluation",
+        "authors": [
+          "M Russ",
+          "V Singh",
+          "B Loughran",
+          "D R Bednarek",
+          "S Rudin"
+        ],
+        "publisher": null,
+        "journal": "Proc. SPIE Medical Imaging",
+        "year": "2015",
+        "pages": null,
+        "type": null,
+        "raw_text": "new family of generalized metrics for comparative imaging system evaluation proc. spie medical imaging m russ v singh b loughran d r bednarek s rudin"
+      },
+      {
+        "title": "Relative object detectability (ROD): a new metric for comparing x-ray image detector performance for a specified object of interest",
+        "authors": [
+          "V Singh",
+          "A Jain",
+          "D R Bednarek",
+          "S Rudin"
+        ],
+        "publisher": null,
+        "journal": "Proc SPIE Int Soc Opt Eng",
+        "year": "2014",
+        "pages": null,
+        "type": null,
+        "raw_text": "relative object detectability (rod): a new metric for comparing x-ray image detector performance for a specified object of interest proc spie int soc opt eng v singh a jain d r bednarek s rudin"
+      }
+    ]
+  },
+  "Region-of-interest cone beam computed tomography (ROI CBCT) with a high resolution CMOS detector.pdf": {
+    "title": "Region-of-interest cone beam computed tomography (ROI CBCT) with a high resolution CMOS detector",
+    "funders": [],
+    "publisher": null,
+    "pub_date": "2016-02-10",
+    "authors": [
+      {
+        "name": "A Jain",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "H Takemoto",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "R Bednarek",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      },
+      {
+        "name": "S Rudin",
+        "affiliation": "Toshiba Stroke and Vascular Research Center, University at Buffalo, Buffalo"
+      }
+    ],
+    "identifiers": {
+      "MD5": "D8D26A5F8B5AB7C2FD8F58C50CCD8A64",
+      "DOI": "10.1117/12.2081450"
+    },
+    "keywords": [],
+    "abstract": "Cone beam computed tomography (CBCT) systems with rotational gantries that have standard flat panel detectors (FPD) are widely used for the 3D rendering of vascular structures using Feldkamp cone beam reconstruction algorithms. One of the inherent limitations of these systems is limited resolution (<3 lp/mm). There are systems available with higher resolution but their small FOV limits them to small animal imaging only. In this work, we report on region-of-interest (ROI) CBCT with a high resolution CMOS detector (75 μm pixels, 600 μm HR-CsI) mounted with motorized detector changer on a commercial FPDbased C-arm angiography gantry (194 μm pixels, 600 μm HL-CsI). A cylindrical CT phantom and neuro stents were imaged with both detectors. For each detector a total of 209 images were acquired in a rotational protocol. The technique parameters chosen for the FPD by the imaging system were used for the CMOS detector. The anti-scatter grid was removed and the incident scatter was kept the same for both detectors with identical collimator settings. The FPD images were reconstructed for the 10 cm x10 cm FOV and the CMOS images were reconstructed for a 3.84 cm × 3.84 cm FOV. Although the reconstructed images from the CMOS detector demonstrated comparable contrast to the FPD images, the reconstructed 3D images of the neuro stent clearly showed that the CMOS detector improved delineation of smaller objects such as the stent struts (~70 μm) compared to the FPD. Further development and the potential for substantial clinical impact are suggested.",
+    "headings": [
+      "Purpose",
+      "Method and Materials",
+      "Results",
+      "Conclusions",
+      "Schematic cylindrical phantom used for the study",
+      "Maximum intensity projection image display of volume reconstructed images for the CMOS",
+      "Fig. 1 .",
+      "Fig. 2 .",
+      "Fig. 3 .",
+      "Fig. 4 .",
+      "Fig. 5a .",
+      "Fig. 5b .",
+      "Fig. 6a .",
+      "Fig. 6b.",
+      "Fig 7 .",
+      "Fig. 8a .Fig. 8b ."
+    ],
+    "top_references": [
+      {
+        "title": "Second-generation three-dimensional reconstruction for rotational three-dimensional angiography",
+        "authors": [
+          "L M Bidaut",
+          "C Laurent",
+          "M Piotin",
+          "P Gailloud",
+          "M Muster"
+        ],
+        "publisher": null,
+        "journal": "Acad. Radiol",
+        "year": "1998",
+        "pages": null,
+        "type": null,
+        "raw_text": "second-generation three-dimensional reconstruction for rotational three-dimensional angiography acad. radiol l m bidaut c laurent m piotin p gailloud m muster"
+      },
+      {
+        "title": "Use of a C-arm system to generate true threedimensional computed rotational angiograms: preliminary in vitro and in vivo results",
+        "authors": [
+          "R Fahrig",
+          "A J Fox",
+          "S Lownie",
+          "D W Holdworth"
+        ],
+        "publisher": null,
+        "journal": "AJNR Am. J. Neuroradiol",
+        "year": "1997",
+        "pages": null,
+        "type": null,
+        "raw_text": "use of a c-arm system to generate true threedimensional computed rotational angiograms: preliminary in vitro and in vivo results ajnr am. j. neuroradiol r fahrig a j fox s lownie d w holdworth"
+      },
+      {
+        "title": "Image intensifier-based computed tomography volume scanner for angiography",
+        "authors": [
+          "R Ning",
+          "R A Kruger"
+        ],
+        "publisher": null,
+        "journal": "Acad. Radiol",
+        "year": "1996",
+        "pages": null,
+        "type": null,
+        "raw_text": "image intensifier-based computed tomography volume scanner for angiography acad. radiol r ning r a kruger"
+      },
+      {
+        "title": "3D rotational angiography: The new gold standard in the detection of additional intracranial aneurysms",
+        "authors": [
+          "W J Van Rooij",
+          "M E Sprengers",
+          "A N De Gast",
+          "Jpp Peluso",
+          "M Sluzewski"
+        ],
+        "publisher": null,
+        "journal": "AJNR Am. J. Neuroradiol",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "3d rotational angiography: the new gold standard in the detection of additional intracranial aneurysms ajnr am. j. neuroradiol w j van rooij m e sprengers a n de gast jpp peluso m sluzewski"
+      },
+      {
+        "title": "Rotational angiography (RA) and three-dimensional imaging (3-DRA): an available clinical tool",
+        "authors": [
+          "J A Garcia",
+          "J Chen",
+          "A Hansgen",
+          "O Wink",
+          "B Movassaghi",
+          "J C Messenger"
+        ],
+        "publisher": null,
+        "journal": "Int. J. Cardiovasc. Imaging",
+        "year": "2007",
+        "pages": null,
+        "type": null,
+        "raw_text": "rotational angiography (ra) and three-dimensional imaging (3-dra): an available clinical tool int. j. cardiovasc. imaging j a garcia j chen a hansgen o wink b movassaghi j c messenger"
+      }
+    ]
+  },
+  "Reliability, validity, and responsiveness of the Western Ontario and McMaster Universities Osteoarthritis Index for elderly patients with a femoral neck fracture.pdf": {
+    "title": "Reliability, validity and responsiveness of the Western Ontario McMaster Osteoarthritis Index (WOMAC) in the elderly population with a femoral neck fracture",
+    "funders": [
+      "McMaster University) US"
+    ],
+    "publisher": null,
+    "pub_date": null,
+    "authors": [
+      {
+        "name": "Paul T P W Burgers",
+        "affiliation": "Trauma Research Unit Dept. of Surgery, Erasmus MC, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+      },
+      {
+        "name": "Rudolf W Poolman",
+        "affiliation": "Department of Orthopaedic Surgery, Joint Research, Onze Lieve Vrouwe Gasthuis, Amsterdam, the Netherlands"
+      },
+      {
+        "name": "Theodorus M J Van Bakel",
+        "affiliation": "Trauma Research Unit Dept. of Surgery, Erasmus MC, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+      },
+      {
+        "name": "Wim E Tuinebreijer",
+        "affiliation": "Trauma Research Unit Dept. of Surgery, Erasmus MC, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+      },
+      {
+        "name": "Stephanie M Zielinski",
+        "affiliation": "Trauma Research Unit Dept. of Surgery, Erasmus MC, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+      },
+      {
+        "name": "Mohit Bhandari",
+        "affiliation": "Dept. of Clinical Epidemiology and Biostatistics, McMaster University, HSC 2C, 1200 Main Street West, Hamilton, Canada"
+      },
+      {
+        "name": "Peter Patka",
+        "affiliation": "Dept. of Emergency Medicine, Erasmus MC, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+      },
+      {
+        "name": "Esther M M Van Lieshout",
+        "affiliation": "Trauma Research Unit Dept. of Surgery, Erasmus MC, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+      },
+      {
+        "name": null,
+        "affiliation": "Department of Surgery, Erasmus MC, University Medical Center Rotterdam Trauma Research Unit, Rotterdam, The Netherlands"
+      }
+    ],
+    "identifiers": {
+      "MD5": "34F894EA02642A2D61E09FE622D85E58"
+    },
+    "keywords": [],
+    "abstract": "Background: Patient-reported outcome measures are gaining importance in clinical research. The WOMAC has been extensively evaluated in populations suffering from osteoarthritis, yet not in femoral neck fracture populations. This study aimed to determine the reliability, construct validity, and responsiveness of WOMAC, compared with SF-12 and EQ-5D, in elderly with a femoral neck fracture. Methods: Reliability was tested by assessing Cronbach's alpha. Construct validity was determined by the Pearson correlation coefficient. Change scores were calculated from the 10 week and 12 months follow-up. Standardized response means (SRM; responsiveness) and floor and ceiling effects were determined. Analyses were performed for patients <80 versus ≥80 years of age. The WOMAC mean total score was 89 points prefracture in younger patients, increasing from 70 (10 weeks) to 81 (24 months). In the oldest old (i.e., ≥ 80 years), these scores were 86, 75, and 78. The stiffness scores were 83, 67, and 76 in the younger group and 85, 80, and 80 in the oldest old. Pain scores were 92, 76, and 87 in the younger and 92, 84, and 93 in the older group. Function scores were 89, 68, and 79 in the younger and 84, 71, and 73 in the older group. Cronbach's alpha for pain, stiffness, function, and the total scale ranged 0.83-0.98 for the younger and 0.79-0.97 for the older group. Construct validity was good with 82% and 79% of predefined hypotheses confirmed in the younger and older group, respectively. Responsiveness was moderate. No floor effects were found. Moderate to large ceiling effects were found for the Pain and Stiffness scales at 10 weeks and 12 months in younger patients (18-36%) and in the oldest old (38-53%).",
+    "headings": [
+      "INTRODUCTION",
+      "MATERIALS AND METHODS",
+      "Population",
+      "Questionnaires",
+      "Data analysis",
+      "Missing data",
+      "Source of Funding",
+      "RESULTS",
+      "Outcome scores",
+      "WOMAC reliability",
+      "Construct validity",
+      "Responsiveness",
+      "Floor and ceiling effects",
+      "DISCUSSION",
+      "Strengths and limitations",
+      "CONCLUSION",
+      "Figure Legends Figure 1 .",
+      "Figure 2 .",
+      "Table 1 . Demographic description of the study population, separated by age group",
+      "Table 2 . Outcomes scores of the study population, separated by age group",
+      "Table 3 . Reliability of the WOMAC instrument at 10 weeks and 12 months in patients who sustained a femoral neck fracture, separated by age group",
+      "Table 4 . Construct validity of the WOMAC domains and WOMAC Total score and the domains of the SF-12 and EQ-5D instruments at 10 weeks , separated by age group",
+      "0.74 (0.68 -0.80) 0.77 (0.70-0.82) 0.79 (0.72-0.84)",
+      "0.78 (0.70-0.84) 0.59 (0.42-0.72) 0.66 (0.50-0.77)",
+      "Table 6 . Ceiling effect of the WOMAC domains and WOMAC Total score, separated by age group"
+    ],
+    "top_references": [
+      {
+        "title": "Conservative versus operative treatment for hip fractures in adults",
+        "authors": [
+          "H H Handoll",
+          "M J Parker"
+        ],
+        "publisher": null,
+        "journal": "Cochrane Database Syst Rev",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "conservative versus operative treatment for hip fractures in adults cochrane database syst rev h h handoll m j parker"
+      },
+      {
+        "title": "The non-operative treatment of impacted femoral neck fractures",
+        "authors": [
+          "E L Raaymakers"
+        ],
+        "publisher": null,
+        "journal": "Injury",
+        "year": "2002",
+        "pages": null,
+        "type": null,
+        "raw_text": "the non-operative treatment of impacted femoral neck fractures injury e l raaymakers"
+      },
+      {
+        "title": "Use of patient-reported outcomes in the context of different levels of data",
+        "authors": [
+          "O Rolfson",
+          "A Rothwell",
+          "A Sedrakyan",
+          "K E Chenok",
+          "E Bohm",
+          "K J Bozic",
+          "G Garellick"
+        ],
+        "publisher": null,
+        "journal": "J Bone Joint Surg Am",
+        "year": "2011",
+        "pages": null,
+        "type": null,
+        "raw_text": "use of patient-reported outcomes in the context of different levels of data j bone joint surg am o rolfson a rothwell a sedrakyan k e chenok e bohm k j bozic g garellick"
+      },
+      {
+        "title": "Quality of life related to fear of falling and hip fracture in older women: a time trade off study",
+        "authors": [
+          "G Salkeld",
+          "I D Cameron",
+          "R G Cumming",
+          "S Easter",
+          "J Seymour",
+          "S E Kurrle",
+          "S Quine"
+        ],
+        "publisher": null,
+        "journal": "Bmj",
+        "year": "2000",
+        "pages": null,
+        "type": null,
+        "raw_text": "quality of life related to fear of falling and hip fracture in older women: a time trade off study bmj g salkeld i d cameron r g cumming s easter j seymour s e kurrle s quine"
+      },
+      {
+        "title": "Evaluation of the health-related quality of life in elderly patients according to the type of hip fracture: femoral neck or trochanteric",
+        "authors": [
+          "T M Mendonca",
+          "C H Silva",
+          "R S Canto",
+          "N M Morales",
+          "R M Pinto",
+          "R R Morales"
+        ],
+        "publisher": null,
+        "journal": "Clinics",
+        "year": "2008",
+        "pages": null,
+        "type": null,
+        "raw_text": "evaluation of the health-related quality of life in elderly patients according to the type of hip fracture: femoral neck or trochanteric clinics t m mendonca c h silva r s canto n m morales r m pinto r r morales"
+      }
+    ]
+  },
+  "Understanding the Prevalence and Geographic Heterogeneity of SARS-CoV-2 Infection_Findings of the First Serosurvey in Uttar Pradesh, India.pdf": {
+    "title": "Understanding the Prevalence and Geographic Heterogeneity of SARS-CoV-2 Infection: Findings of the First Serosurvey in Uttar Pradesh, India",
+    "funders": [],
+    "publisher": null,
+    "pub_date": "2021-10-26",
+    "authors": [
+      {
+        "name": "Vasanthakumar Namasivayam",
+        "affiliation": "Department of Community Health Sciences, Institute for Global Public Health, University of Manitoba, R070 Med Rehab Bldg, 771 McDermot Avenue, Winnipeg, Canada"
+      },
+      {
+        "name": "Amita Jain",
+        "affiliation": "King George's Medical University (KGMU), Lucknow, India"
+      },
+      {
+        "name": "Vikasendu Agrawal",
+        "affiliation": "Government of Uttar Pradesh, Lucknow, India"
+      },
+      {
+        "name": "Ravi Prakash",
+        "affiliation": "Department of Community Health Sciences, Institute for Global Public Health, University of Manitoba, R070 Med Rehab Bldg, 771 McDermot Avenue, Winnipeg, Canada"
+      },
+      {
+        "name": "Bidyadhar Dehury",
+        "affiliation": "India Health Action Trust, New Delhi/Lucknow, India"
+      },
+      {
+        "name": "Marissa Becker",
+        "affiliation": "Department of Community Health Sciences, Institute for Global Public Health, University of Manitoba, R070 Med Rehab Bldg, 771 McDermot Avenue, Winnipeg, Canada"
+      },
+      {
+        "name": "James Blanchard",
+        "affiliation": "Department of Community Health Sciences, Institute for Global Public Health, University of Manitoba, R070 Med Rehab Bldg, 771 McDermot Avenue, Winnipeg, Canada"
+      },
+      {
+        "name": "Shajy Isac",
+        "affiliation": "Department of Community Health Sciences, Institute for Global Public Health, University of Manitoba, R070 Med Rehab Bldg, 771 McDermot Avenue, Winnipeg, Canada"
+      },
+      {
+        "name": "Amit Mohan Prasad",
+        "affiliation": "Government of Uttar Pradesh, Lucknow, India"
+      },
+      {
+        "name": null,
+        "affiliation": "Vasanthakumar Namasivayam"
+      }
+    ],
+    "identifiers": {
+      "ORCID": "0000-0001-7905-0155",
+      "MD5": "77C07891B7005DE9915C05CB55684579",
+      "DOI": "10.1007/s44197-021-00012-6"
+    },
+    "keywords": [],
+    "abstract": "Population-based serological antibody test for SARS-CoV-2 infection helps in estimating the exposure in the community. We present the findings of the first district representative seroepidemiological survey conducted between 4 and 10 September 2020 among the population aged 5 years and above in the state of Uttar Pradesh, India. Multi-stage cluster sampling was used to select participants from 495 primary sampling units (villages in rural areas and wards in urban areas) across 11 selected districts to provide district-level seroprevalence disaggregated by place of residence (rural/urban), age (5-17 years/aged 18 +) and gender. A venous blood sample was collected to determine seroprevalence. Of 16,012 individuals enrolled in the study, 22.2% [95% CI 21.5-22.9] equating to about 10.4 million population in 11 districts were already exposed to SARS-CoV-2 infection by mid-September 2020. The overall seroprevalence was significantly higher in urban areas (30.6%, 95% CI 29.4-31.7) compared to rural areas (14.7%, 95% CI 13.9-15.6), and among aged 18 + years (23.2%, 95% CI 22.4-24.0) compared to aged 5-17 years (18.4%, 95% CI 17.0-19.9). No differences were observed by gender. Individuals exposed to a COVID confirmed case or residing in a COVID containment zone had higher seroprevalence (34.5% and 26.0%, respectively). There was also a wide variation (10.7-33.0%) in seropositivity across 11 districts indicating that population exposed to COVID was not uniform at the time of the study. Since about 78% of the population (36.5 million) in these districts were still susceptible to infection, public health measures remain essential to reduce further spread.",
+    "headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Study Setting",
+      "Sampling Design and Participants",
+      "Data Collection Process",
+      "Serology Testing Procedures",
+      "Statistical Analysis",
+      "Ethical Considerations",
+      "Results",
+      "Discussion",
+      "Conclusion",
+      "Fig. 2",
+      "Table 2",
+      "Table 1",
+      "Table 2 (",
+      "Table 3"
+    ],
+    "top_references": [
+      {
+        "title": "Timeline: WHO's COVID-19 Response [Internet]. Geneva: World Health Organisation",
+        "authors": [],
+        "publisher": null,
+        "journal": "Timeline: WHO's COVID-19 Response [Internet]. Geneva: World Health Organisation",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "timeline: who's covid-19 response [internet]. geneva: world health organisation timeline: who's covid-19 response [internet]. geneva: world health organisation"
+      },
+      {
+        "title": "WHO coronavirus disease (COVID-19) Dashboard [Internet]",
+        "authors": [],
+        "publisher": "World Health Organization (WHO)",
+        "journal": "WHO coronavirus disease (COVID-19) Dashboard [Internet]",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "who coronavirus disease (covid-19) dashboard [internet] who coronavirus disease (covid-19) dashboard [internet] world health organization (who)"
+      },
+      {
+        "title": "SARS-CoV-2 seroprevalence in COVID-19 hotspots",
+        "authors": [
+          "I Eckerle",
+          "B Meyer"
+        ],
+        "publisher": null,
+        "journal": "Lancet",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "sars-cov-2 seroprevalence in covid-19 hotspots lancet i eckerle b meyer"
+      },
+      {
+        "title": "Seroprevalence of anti-SARS-CoV-2 IgG antibodies in Geneva, Switzerland (SEROCoV-POP): a population-based study",
+        "authors": [
+          "S Stringhini",
+          "A Wisniak",
+          "G Piumatti",
+          "A S Azman",
+          "S A Lauer",
+          "H Baysson"
+        ],
+        "publisher": null,
+        "journal": "Lancet",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "seroprevalence of anti-sars-cov-2 igg antibodies in geneva, switzerland (serocov-pop): a population-based study lancet s stringhini a wisniak g piumatti a s azman s a lauer h baysson"
+      },
+      {
+        "title": "Serology testing in the COVID-19 pandemic response",
+        "authors": [
+          "R W Peeling",
+          "C J Wedderburn",
+          "P J Garcia",
+          "D Boeras",
+          "N Fongwen",
+          "J Nkengasong"
+        ],
+        "publisher": null,
+        "journal": "Lancet Infect Dis",
+        "year": "2020",
+        "pages": null,
+        "type": null,
+        "raw_text": "serology testing in the covid-19 pandemic response lancet infect dis r w peeling c j wedderburn p j garcia d boeras n fongwen j nkengasong"
+      }
+    ]
+  }
+}
