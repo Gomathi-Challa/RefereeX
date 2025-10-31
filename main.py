@@ -52,6 +52,7 @@ from sentence_transformers import SentenceTransformer
 import PyPDF2
 from collections import Counter
 import re
+from typing import Optional, List, Tuple, Dict
 
 
 class ReviewerRecommendationSystem:
@@ -301,41 +302,37 @@ class ReviewerRecommendationSystem:
         return keywords[:n]
     
     def get_top_reviewers(
-        self,
-        candidate_pdf: str,
-        k: int = 10,
-        tfidf_weight: float = 0.4,
-        semantic_weight: float = 0.6
-    ) -> List[Tuple[str, Dict]]:
+            self,
+            candidate_pdf: Optional[str] = None,
+            candidate_text: Optional[str] = None,
+            k: int = 10,
+            tfidf_weight: float = 0.4,
+            semantic_weight: float = 0.6
+        ) -> List[Tuple[str, Dict]]:
         """
         Get top-k reviewer recommendations for a candidate paper
-        
-        Args:
-            candidate_pdf: Path to candidate paper PDF
-            k: Number of top reviewers to return
-            tfidf_weight: Weight for lexical similarity
-            semantic_weight: Weight for semantic similarity
-        
-        Returns:
-            List of top-k (author_name, scores_dict) tuples
+
+        Either candidate_pdf or candidate_text must be provided.
         """
-        # Extract text from candidate paper
-        candidate_text = self.extract_text_from_pdf(candidate_pdf)
-        
+        if candidate_text is None:
+            if candidate_pdf is None:
+                raise ValueError("Either candidate_pdf or candidate_text must be provided")
+            candidate_text = self.extract_text_from_pdf(candidate_pdf)
+
         if not candidate_text:
             print("     Failed to extract text from candidate paper")
             return []
-        
+
         # Compute hybrid scores
         all_scores = self.compute_hybrid_scores(
             candidate_text,
             tfidf_weight=tfidf_weight,
             semantic_weight=semantic_weight
         )
-        
+
         # Return top-k
         top_k = all_scores[:k]
-        
+
         print(f"\n{'='*60}")
         print(f"Top {k} Recommended Reviewers")
         print(f"{'='*60}")
@@ -345,8 +342,9 @@ class ReviewerRecommendationSystem:
             print(f"   TF-IDF: {scores['tfidf_score']:.4f} | Semantic: {scores['semantic_score']:.4f}")
             print(f"   Papers: {scores['paper_count']} | Keywords: {', '.join(scores['keywords'])}")
             print()
-        
+
         return top_k
+
     
     def save_recommendations(self, recommendations: List[Tuple[str, Dict]], output_file: str):
         """Save recommendations to JSON file"""
